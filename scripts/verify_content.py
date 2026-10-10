@@ -3,7 +3,7 @@
 import json, pathlib, sys
 root=pathlib.Path(__file__).resolve().parent.parent
 D=json.loads((root/'data/content.json').read_text(encoding='utf-8'))
-required={'stages':18,'rules':45,'battles':24,'randomizer':45,'evolutions':41,'moves':45,'pokemonChanges':1,'guides':5,'phases':2}
+required={'stages':18,'rules':46,'battles':24,'randomizer':44,'evolutions':41,'moves':45,'pokemonChanges':1,'guides':5,'phases':2}
 errors=[]
 for key,n in required.items():
  actual=len(D[key]);print(f'{key:17s} {actual:3d} registros')
