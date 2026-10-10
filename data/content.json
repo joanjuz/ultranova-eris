@@ -918,8 +918,8 @@
     {
       "id": "rand-039",
       "category": "Salvajes, MT y tiendas",
-      "title": "Plumas EV",
-      "body": "Precio modificado a 10 ¥.",
+      "title": "Plumas y vitaminas EV",
+      "body": "Precio modificado a 10 ¥ para las plumas, y 200¥ para las vitaminas, que pasan a dar 20 EV en la stat correspondiente.",
       "source": "Normas, p. 7"
     },
     {
