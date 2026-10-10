@@ -104,12 +104,12 @@ scripts/verify_content.py       Comprobaciones del contenido
 
 Se han conservado expresamente algunas diferencias de redacción, **sin resolverlas por cuenta propia**:
 
-- Se eliminó el máximo de shinies por persona o equipo. La búsqueda sigue permitida al concluir el tramo antes de la fecha fijada, siempre en directo.
+- La organización confirmó un máximo de un Pokémon shiny por tramo para la búsqueda deliberada, que debe realizarse en directo después de completar el tramo antes de su fecha límite.
 - El canal oficial para enviar las listas de equipos es `#equipos_combates`.
 - Los level caps se aplican automáticamente mediante Quality of Life. El mapa conserva los valores de referencia, sin la norma manual antigua.
 - El PDF indica la fecha de inicio, pero no todas las fechas concretas de competición.
 
-La pestaña **Reglamento**, en «Aspectos por confirmar», muestra las observaciones. El editor permite actualizar esos textos cuando la administración decida.
+La pestaña **Reglamento**, en «Fechas anunciadas en Discord», informa sobre el calendario. El editor permite actualizar esos textos cuando la administración decida.
 
 ## 7. Imágenes y derechos
 
@@ -123,12 +123,12 @@ El archivo `data/content.json` contiene, inicialmente:
 - 46 entradas de normas y excepciones.
 - 2 fases del torneo.
 - 24 reglas y especificaciones de los combates.
-- 45 especificaciones de randomizado.
+- 44 especificaciones de randomizado.
 - 41 evoluciones modificadas.
 - 45 movimientos o categorías de movimientos modificados.
 - Cambios de estadísticas de Slaking (600 BST).
 - 5 guías técnicas.
-- 4 observaciones de documentos por confirmar.
+- 1 nota informativa sobre el calendario.
 
 Se adjuntan ambos PDF para consulta y comprobación de la fuente. Los contenidos del sitio son una **reestructuración explicativa**, no una reproducción página por página. La interfaz es una primera versión funcional y puede ampliarse sin reescribir los datos.
 
@@ -136,6 +136,18 @@ Se adjuntan ambos PDF para consulta y comprobación de la fuente. Los contenidos
 
 - UltraLuna es el tema inicial; la elección manual del visitante se conserva.
 - El buscador de movimientos solo muestra «Ver clip» cuando hay un vídeo enlazado válido.
-- SoulLink diferencia Pokémon debilitados (escala de grises), capturas fallidas (MISS), excepciones shiny (Sin vínculo) y bajas durante combates.
+- SoulLink diferencia Pokémon debilitados (escala de grises), capturas fallidas (MISS) y excepciones shiny (Sin vínculo).
 - El mapa marca visualmente el fin de la primera fase tras Zarala (nivel 42).
 - Calendario: comienzo el 6 de noviembre, demás fechas aún por comunicar.
+
+## Ajustes V1.1.3 (10 de octubre de 2026)
+
+- Las fechas de la competición se comunicarán en Discord; comienza el 6 de noviembre.
+- Se añadió la prohibición de utilizar Repartir Experiencia.
+- Se retiró el ejemplo interactivo de muerte durante un combate, sin suprimir la norma escrita del SoulLink.
+- La búsqueda deliberada de shiny tiene un límite de un Pokémon por tramo.
+- El quinto paso de la guía PokéPaste se retiró; las reglas de entrega siguen en la sección Combates.
+- La portada indica «Formato de combates».
+- Vuelo y Buceo muestran su retroceso de daño sin referencias editoriales al PDF.
+- Autodestrucción se describe explícitamente como física, de potencia 250.
+- Se eliminó la mención introductoria a los clips; el soporte de vídeos disponibles se conserva.
