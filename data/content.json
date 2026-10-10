@@ -1,0 +1,1943 @@
+{
+  "meta": {
+    "name": "ULTRANOVA",
+    "subtitle": "ERIS · TORNEO POKÉMON",
+    "heroTitle": "ULTRANOVA",
+    "heroSubtitle": "Pokémon UltraSol / UltraLuna",
+    "heroDescription": "Torneo por parejas con reglas SoulLink y enfrentamientos dobles competitivos. Consulta la normativa, los límites de nivel, las modificaciones del romhack y el formato de los combates.",
+    "announcement": "Inicio anunciado: 6 de noviembre. Las fechas exactas y los emparejamientos se comunican en el servidor de Discord.",
+    "format": "Por parejas, combates dobles",
+    "teams": "16/32",
+    "game": "Romhack Pokémon UltraSol / UltraLuna",
+    "prize": "200 €",
+    "prizeFewestDeaths": "20 €",
+    "entry": "20 € por pareja (10 € por persona)",
+    "start": "6 de noviembre",
+    "socials": {
+      "discord": "https://discord.com/invite/bUtz7MnECm",
+      "twitter": "https://x.com/ErisPoke",
+      "instagram": "https://www.instagram.com/eris_pokemon/"
+    }
+  },
+  "stages": [
+    {
+      "id": "stage-01",
+      "region": "Melemele",
+      "name": "Primera Prueba (Liam)",
+      "level": 14,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-02",
+      "region": "Melemele",
+      "name": "Gran Prueba de Melemele (Kaudan)",
+      "level": 19,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-03",
+      "region": "Akala",
+      "name": "Segunda Prueba (Nereida)",
+      "level": 24,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-04",
+      "region": "Akala",
+      "name": "Tercera Prueba (Kiawe)",
+      "level": 26,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-05",
+      "region": "Akala",
+      "name": "Cuarta Prueba (Lulú)",
+      "level": 29,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-06",
+      "region": "Akala",
+      "name": "Gran Prueba de Akala (Mayla)",
+      "level": 34,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-07",
+      "region": "Ula-Ula",
+      "name": "Quinta Prueba (Chris)",
+      "level": 40,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-08",
+      "region": "Ula-Ula",
+      "name": "Sexta Prueba (Zarala)",
+      "level": 42,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-09",
+      "region": "Ula-Ula",
+      "name": "Guzmán (Insectostal)",
+      "level": 51,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-10",
+      "region": "Ula-Ula",
+      "name": "Gran Prueba de Ula-Ula (Denio)",
+      "level": 53,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-11",
+      "region": "Ula-Ula",
+      "name": "Samina",
+      "level": 56,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-12",
+      "region": "Poni y final",
+      "name": "Séptima Prueba (Poni)",
+      "level": 59,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-13",
+      "region": "Poni y final",
+      "name": "Ultra Necrozma",
+      "level": 64,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-14",
+      "region": "Poni y final",
+      "name": "Octava Prueba (Rika)",
+      "level": 66,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-15",
+      "region": "Poni y final",
+      "name": "Gran Prueba de Poni (Hela)",
+      "level": 67,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-16",
+      "region": "Poni y final",
+      "name": "Gladio (Ascensor aldea tapu)",
+      "level": 68,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-17",
+      "region": "Poni y final",
+      "name": "Alto Mando",
+      "level": 72,
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "stage-18",
+      "region": "Poni y final",
+      "name": "Campeón",
+      "level": 75,
+      "source": "Normas, p. 3"
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule-001",
+      "category": "General",
+      "title": "Retransmisión obligatoria",
+      "body": "Ambos compañeros deben grabar o emitir en directo todo lo que se juegue. Fuera de cámara se permiten estrategias, organizar cajas o revisar la bolsa, pero no combates, capturas, entrenamiento de Pokémon ni avanzar en la historia.",
+      "source": "Normas, p. 1"
+    },
+    {
+      "id": "rule-002",
+      "category": "General",
+      "title": "Grabaciones editadas",
+      "body": "Si el vídeo grabado tiene edición o cortes, debe entregarse el material bruto completo a administración. Si no se proporciona, la actividad debe hacerse en directo.",
+      "source": "Normas, p. 1"
+    },
+    {
+      "id": "rule-003",
+      "category": "General",
+      "title": "Redes oficiales",
+      "body": "Es obligatorio compartir las redes de Eris y poner los enlaces de X/Twitter y Discord en la descripción o chat de la retransmisión.",
+      "source": "Normas, p. 1"
+    },
+    {
+      "id": "rule-004",
+      "category": "General",
+      "title": "Compromiso de participación",
+      "body": "Al inscribirse se adquiere el compromiso de cumplir los tramos y las horas de combate establecidas. Se contemplan contratiempos repentinos.",
+      "source": "Normas, p. 1"
+    },
+    {
+      "id": "rule-005",
+      "category": "Capturas y SoulLink",
+      "title": "Primera captura por ruta",
+      "body": "Solo puede capturarse el primer Pokémon de cada ruta, con las excepciones especificadas para Pokémon shiny y duplicados.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-006",
+      "category": "Capturas y SoulLink",
+      "title": "Excepción shiny",
+      "body": "Si aparece un shiny cuando ya se ha capturado en la ruta, se puede capturar y usar igualmente.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-007",
+      "category": "Capturas y SoulLink",
+      "title": "Regla de duplicados",
+      "body": "Si el primer Pokémon pertenece a una especie que ya tienes en tu propio juego o a su misma cadena evolutiva, puedes decidir capturarlo o buscar un segundo Pokémon de esa ruta.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-008",
+      "category": "Capturas y SoulLink",
+      "title": "Especies prohibidas",
+      "body": "Se prohíben los Pokémon legendarios, singulares, míticos, permamegas y ultraentes.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-009",
+      "category": "Capturas y SoulLink",
+      "title": "Vínculo entre compañeros",
+      "body": "La primera captura de una ruta queda vinculada al Pokémon capturado por el compañero en esa misma ruta. Si uno de los dos muere, ambos se consideran muertos; ejemplo: Mudkip y Salamence vinculados en la ruta 1.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-010",
+      "category": "Capturas y SoulLink",
+      "title": "Captura fallida del compañero",
+      "body": "Si un jugador consigue capturar y su compañero no lo logra en esa ruta, los dos se quedan sin captura válida en ella; el Pokémon ya capturado es ilegal. Ejemplo: Garchomp en ruta 2.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-011",
+      "category": "Capturas y SoulLink",
+      "title": "Inicio de la regla de primer encuentro",
+      "body": "La regla de la primera captura empieza cuando se obtienen Poké Balls.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-012",
+      "category": "Capturas y SoulLink",
+      "title": "Fósiles y shiny sin vínculo",
+      "body": "Los Pokémon de fósiles y los shiny no están vinculados al Pokémon de su compañero.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-013",
+      "category": "Capturas y SoulLink",
+      "title": "Regalos y eventos vinculados",
+      "body": "Pokémon de evento (como Lunala, Wimpod o dominantes de dominsignias), iniciales, huevos e intercambios sí se vinculan con el Pokémon correspondiente del compañero.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-014",
+      "category": "Capturas y SoulLink",
+      "title": "Distancia máxima entre jugadores",
+      "body": "Los jugadores pueden ir a un ritmo diferente, siempre que estén como máximo a dos rutas de distancia entre sí.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-015",
+      "category": "Capturas y SoulLink",
+      "title": "Muerte vinculada durante combate",
+      "body": "Si el Pokémon vinculado de un jugador se debilita cuando el otro jugador está usando su pareja en un combate, la segunda muerte se aplica al terminar ese combate. Ejemplo: Bagon y Sewaddle.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-016",
+      "category": "Capturas y SoulLink",
+      "title": "Especies repetidas en el equipo",
+      "body": "En el equipo de un jugador no puede haber dos Pokémon de la misma especie, aunque tengan habilidades diferentes. El compañero sí puede llevar esa especie.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-017",
+      "category": "Muertes y supervivencia",
+      "title": "Debilitamiento definitivo",
+      "body": "Si un Pokémon se debilita, no podrá volver a utilizarse.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-018",
+      "category": "Muertes y supervivencia",
+      "title": "Revivo restringido",
+      "body": "No se pueden revivir Pokémon, salvo por orden de los administradores o como recompensa de combate.",
+      "source": "Normas, p. 2"
+    },
+    {
+      "id": "rule-019",
+      "category": "Objetos y nivel",
+      "title": "Compra de objetos prohibidos",
+      "body": "Prohibido comprar curas, objetos X y bayas curativas. Sí se pueden comprar bayas que no curen.",
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "rule-020",
+      "category": "Objetos y nivel",
+      "title": "Level cap",
+      "body": "Los Pokémon deben estar al mismo nivel o por debajo del Pokémon de mayor nivel de la siguiente prueba. El documento añade que no podrán utilizarse Pokémon situados 2 niveles por encima del level cap.",
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "rule-021",
+      "category": "Objetos y nivel",
+      "title": "Norma de Liga: Restaurar Todo",
+      "body": "Se permite comprar Restaurar Todo para utilizarlos después de cada combate contra un miembro del Alto Mando, como sustituto de un Centro Pokémon.",
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "rule-022",
+      "category": "Objetos y nivel",
+      "title": "Norma de Liga: curación limitada",
+      "body": "Puedes curar con los objetos que ya tuvieras antes. Los Restaurar Todo comprados se limitan a uno cada vez que el rival se cure; si el rival no se ha curado, solo pueden utilizarse curas que ya tenías.",
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "rule-023",
+      "category": "Objetos y nivel",
+      "title": "Norma de Liga: bajas",
+      "body": "Si se debilita un Pokémon durante la Liga, continúas con los restantes sin revivirlo.",
+      "source": "Normas, p. 3"
+    },
+    {
+      "id": "rule-024",
+      "category": "Evidencias",
+      "title": "Evidencia de capturas",
+      "body": "Es obligatorio enviar una imagen de los Pokémon capturados en el chat de equipo, mostrando la ruta de captura y qué Pokémon quedan vinculados.",
+      "source": "Normas, p. 4"
+    },
+    {
+      "id": "rule-025",
+      "category": "Evidencias",
+      "title": "Evidencia de muertes",
+      "body": "Es obligatorio enviar una imagen de los Pokémon que mueran al chat del equipo e indicarlo expresamente.",
+      "source": "Normas, p. 4"
+    },
+    {
+      "id": "rule-026",
+      "category": "Evidencias",
+      "title": "Combates iniciales excluidos",
+      "body": "El primer combate y el del Spearow del puente no cuentan para vidas ni muertes de Pokémon.",
+      "source": "Normas, p. 4"
+    },
+    {
+      "id": "rule-027",
+      "category": "Evidencias",
+      "title": "Premio de menos muertes",
+      "body": "Se contabilizan las muertes de toda la aventura. El equipo con menos muertes recibe 20 €.",
+      "source": "Normas, p. 4"
+    },
+    {
+      "id": "rule-028",
+      "category": "Evidencias",
+      "title": "Desempate del premio de menos muertes",
+      "body": "Si varios equipos empatan en muertes, gana el que haya llegado más lejos en el torneo. Si también empatan en clasificación, se juega un combate entre esos equipos.",
+      "source": "Normas, p. 4"
+    },
+    {
+      "id": "rule-029",
+      "category": "Configuración y excepciones",
+      "title": "Condición de derrota definitiva",
+      "body": "Solo se pierde el desafío cuando alguno de los integrantes se queda sin Pokémon en la caja.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-030",
+      "category": "Configuración y excepciones",
+      "title": "Tipo de combate fijo",
+      "body": "En los ajustes del juego debe activarse el tipo de combate «fijo».",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-031",
+      "category": "Configuración y excepciones",
+      "title": "Motes",
+      "body": "Se pide poner mote a cada Pokémon. Usar uno sin mote de forma puntual no supone un problema, pero se prefiere que todos tengan mote.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-032",
+      "category": "Configuración y excepciones",
+      "title": "Bayas por árbol",
+      "body": "Solo se pueden recoger bayas una vez por árbol, aunque se regeneren. Los Pokémon que aparezcan en los árboles de bayas cuentan como encuentros de ruta, no de evento.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-033",
+      "category": "Configuración y excepciones",
+      "title": "Búsqueda de Pokémon shiny",
+      "body": "Solo se pueden buscar shinies tras completar un tramo antes de la fecha límite. Se permiten cadenas con nervioesfera, pesca y otros métodos, siempre en directo. El texto dice «máximo 1 shiny por persona y por tramo», mientras el ejemplo dice «máximo uno por equipo». Ver nota de organización.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-034",
+      "category": "Configuración y excepciones",
+      "title": "Shiny de entrenador rival",
+      "body": "Si un entrenador rival tiene un Pokémon shiny, ambos integrantes reciben una captura extra en la ruta actual, o en la siguiente si allí no es posible.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-035",
+      "category": "Configuración y excepciones",
+      "title": "Poderes Rotom",
+      "body": "Está prohibido utilizar los poderes Rotom.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-036",
+      "category": "Configuración y excepciones",
+      "title": "Farmeo de objetos",
+      "body": "No se permite farmear objetos continuamente con Ladrón, Antojo o Prestidigitador.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-037",
+      "category": "Configuración y excepciones",
+      "title": "Afecto",
+      "body": "No se permite dar afecto a los Pokémon ni curar estados mediante afecto o cuidarlos después de combates para aumentarlo. Sylveon puede obtenerse por amistad, movimiento tipo Hada y nivel, sin recurrir al afecto.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-038",
+      "category": "Configuración y excepciones",
+      "title": "Caramelos raros y artículos permitidos",
+      "body": "Se pueden comprar y utilizar caramelos raros, escamas corazón y plumas.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-039",
+      "category": "Configuración y excepciones",
+      "title": "Postgame opcional",
+      "body": "El postgame es opcional; durante él las muertes se siguen contando. Es posible llegar al Árbol de Combate para obtener gratis todas las megapiedras y al tutor de movimientos.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-040",
+      "category": "Configuración y excepciones",
+      "title": "Qué combates suman muertes",
+      "body": "Todos los combates cuentan muertes, salvo el primero contra Tilo, el del Spearow del puente y los posteriores a completar el postgame.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "id": "rule-041",
+      "category": "Tramos",
+      "title": "Primer tramo",
+      "body": "Hasta superar la sexta prueba (Zarala), con dos semanas para llegar. Una vez concluido, se realizan los primeros combates del bracket.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rule-042",
+      "category": "Tramos",
+      "title": "Segundo tramo",
+      "body": "Hasta completar el juego después del Campeón, con otras dos semanas. El postgame es opcional. Después se hacen los combates finales lo antes posible, con un máximo de otras dos semanas.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rule-043",
+      "category": "Tramos",
+      "title": "Incumplimiento de plazos",
+      "body": "Quien no cumpla los tramos establecidos queda automáticamente descalificado del próximo combate.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rule-044",
+      "category": "Baneos",
+      "title": "Movimiento Relevo",
+      "body": "Prohibido el movimiento Relevo tanto en el locke como en los combates de torneo.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rule-045",
+      "category": "Baneos",
+      "title": "Habilidades Sombra Trampa y Trampa Arena",
+      "body": "Ambas están prohibidas en juego y PvP, aunque en principio no deberían aparecer en el romhack.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rule-046",
+      "category": "Baneos",
+      "title": "Movimientos fulminantes garantizados",
+      "body": "Prohibidas estrategias que hagan infalibles movimientos como Frío Polar, Guillotina o Fisura: por ejemplo, Indefenso + Frío Polar o Fijar Blanco + Fisura.",
+      "source": "Normas, p. 6"
+    }
+  ],
+  "phases": [
+    {
+      "id": "phase-1",
+      "title": "Tramo 1 / Primera fase",
+      "body": "Dos semanas para superar la sexta prueba (Zarala, nivel 42). Después se disputan los primeros combates del bracket. Está prohibido avanzar en historia y rutas hasta completar esa fase; sí es posible seguir jugando sin avanzar.",
+      "source": "Normas, p. 6; Combates, p. 1"
+    },
+    {
+      "id": "phase-2",
+      "title": "Tramo 2 / Segunda fase",
+      "body": "Otras dos semanas hasta superar al Campeón. Postgame opcional. Después de la Liga se disputan los combates restantes para decidir el ganador. La fase final puede alargarse un máximo de dos semanas más.",
+      "source": "Normas, p. 6; Combates, p. 1"
+    }
+  ],
+  "battles": [
+    {
+      "id": "battle-001",
+      "category": "Organización",
+      "title": "Emparejamientos aleatorios",
+      "body": "Los enfrentamientos se deciden aleatoriamente. Los cuadros se publican en el canal #bracket de Discord.",
+      "source": "Combates, p. 1"
+    },
+    {
+      "id": "battle-002",
+      "category": "Organización",
+      "title": "Inicio primera fase",
+      "body": "Los primeros combates son después de la sexta prueba (Zarala). Está prohibido avanzar en historia y rutas hasta terminar esta fase, aunque se permite seguir jugando sin avanzar.",
+      "source": "Combates, p. 1"
+    },
+    {
+      "id": "battle-003",
+      "category": "Organización",
+      "title": "Recompensas a ganadores",
+      "body": "Los ganadores de la primera fase pueden elegir entre una captura extra o una Cápsula Habilidad.",
+      "source": "Combates, p. 1"
+    },
+    {
+      "id": "battle-004",
+      "category": "Organización",
+      "title": "Recompensas a perdedores",
+      "body": "Los perdedores de la primera fase pueden escoger una captura extra en una ruta a elección o revivir un Pokémon. Ambos jugadores pueden elegir cualquier Pokémon para revivir, pero los revividos quedarán vinculados.",
+      "source": "Combates, p. 1"
+    },
+    {
+      "id": "battle-005",
+      "category": "Organización",
+      "title": "Segunda fase",
+      "body": "Se celebra después de la Liga Pokémon y continúa hasta determinar al campeón.",
+      "source": "Combates, p. 1"
+    },
+    {
+      "id": "battle-006",
+      "category": "Formato",
+      "title": "Serie BO3",
+      "body": "Cada enfrentamiento es al mejor de tres: gana el primero que consiga dos victorias.",
+      "source": "Combates, p. 1"
+    },
+    {
+      "id": "battle-007",
+      "category": "Formato",
+      "title": "Eliminación doble",
+      "body": "Hay bracket de ganadores y bracket de perdedores (loser bracket). Para quedar eliminado hay que perder dos veces.",
+      "source": "Combates, p. 1"
+    },
+    {
+      "id": "battle-008",
+      "category": "Formato",
+      "title": "Cambios de equipo entre rondas",
+      "body": "Se pueden cambiar los equipos entre rondas (octavos, semifinal, final, etc.). Deben entregarse nuevamente los tres equipos en un formato de listas abiertas.",
+      "source": "Combates, p. 2"
+    },
+    {
+      "id": "battle-009",
+      "category": "Formato",
+      "title": "Combate múltiple",
+      "body": "Los enfrentamientos son combates dobles en Multi Battle de 2 jugadores contra 2 jugadores, jugados simultáneamente en el servidor privado de Pokémon Showdown usando Radmin VPN.",
+      "source": "Combates, p. 2"
+    },
+    {
+      "id": "battle-010",
+      "category": "Formato",
+      "title": "Agendar enfrentamiento",
+      "body": "Los rivales acuerdan día y hora dentro de los disponibles y mediante su canal. Si no hay acuerdo, la moderación fija la hora.",
+      "source": "Combates, p. 2"
+    },
+    {
+      "id": "battle-011",
+      "category": "Formato",
+      "title": "Dos primeras listas sin repetidos",
+      "body": "Se preparan como máximo tres equipos. Entre los Equipos 1 y 2 está prohibido repetir cualquier Pokémon.",
+      "source": "Combates, p. 2"
+    },
+    {
+      "id": "battle-012",
+      "category": "Formato",
+      "title": "Tercer equipo libre",
+      "body": "Si la serie se iguala 1-1, el Equipo 3 sí permite Pokémon utilizados en las listas anteriores o Pokémon nuevos.",
+      "source": "Combates, p. 2"
+    },
+    {
+      "id": "battle-013",
+      "category": "Selección",
+      "title": "Tres Pokémon por jugador",
+      "body": "En cada partida cada integrante lleva tres Pokémon y los junta con los tres de su compañero; por tanto, son seis contra seis. No se permite llevar cuatro de un juego y dos del otro.",
+      "source": "Combates, p. 4"
+    },
+    {
+      "id": "battle-014",
+      "category": "Selección",
+      "title": "Elección al ver al rival",
+      "body": "Los tres Pokémon se eligen según lo que lleve el rival, dentro del equipo válido para esa partida.",
+      "source": "Combates, p. 4"
+    },
+    {
+      "id": "battle-015",
+      "category": "Selección",
+      "title": "Combate 1",
+      "body": "Cada jugador elige el Equipo 1 o el Equipo 2 (nunca el 3). Ambos compañeros deben usar el mismo número de equipo.",
+      "source": "Combates, p. 4"
+    },
+    {
+      "id": "battle-016",
+      "category": "Selección",
+      "title": "Combate 2",
+      "body": "Ambos deben usar el equipo de los dos primeros que no utilizaron en la partida 1.",
+      "source": "Combates, p. 4"
+    },
+    {
+      "id": "battle-017",
+      "category": "Selección",
+      "title": "Combate 3",
+      "body": "Si se disputa una tercera partida, ambos deben utilizar el Equipo 3.",
+      "source": "Combates, p. 4"
+    },
+    {
+      "id": "battle-018",
+      "category": "Preparación y envío",
+      "title": "Extraer equipo con PKHeX",
+      "body": "Abre el guardado main con PKHeX; entra a Herramientas → Showdown y exporta los Pokémon del equipo o cajas en el formato Showdown.",
+      "source": "Combates, p. 4"
+    },
+    {
+      "id": "battle-019",
+      "category": "Preparación y envío",
+      "title": "Importación a Showdown",
+      "body": "En Showdown abre el constructor de equipos, crea un equipo nuevo, entra a Importar/Exportar, pega el texto exportado desde PKHeX y guarda.",
+      "source": "Combates, p. 5"
+    },
+    {
+      "id": "battle-020",
+      "category": "Preparación y envío",
+      "title": "EV e IV en PvP",
+      "body": "En Showdown, todos los Pokémon deben tener todos los EV en 1 y todos los IV en 31, para evitar trampas.",
+      "source": "Combates, p. 6"
+    },
+    {
+      "id": "battle-021",
+      "category": "Preparación y envío",
+      "title": "Listas abiertas",
+      "body": "Antes de cada combate se enviarán los tres equipos. Cada equipo puede incluir los seis Pokémon propios y los seis del compañero, de los que se seleccionan tres por jugador. Los enlaces de Poképaste se comparten en #equipos_combates.",
+      "source": "Combates, p. 6"
+    },
+    {
+      "id": "battle-022",
+      "category": "Preparación y envío",
+      "title": "Antelación obligatoria",
+      "body": "Los tres equipos deben enviarse con un día de antelación al enfrentamiento.",
+      "source": "Combates, p. 6"
+    },
+    {
+      "id": "battle-023",
+      "category": "Preparación y envío",
+      "title": "Publicación mediante Poképaste",
+      "body": "Una vez armado cada equipo en Showdown, utiliza Subir a PokéPaste, copia la URL generada y compártela en el canal indicado.",
+      "source": "Combates, p. 6"
+    },
+    {
+      "id": "battle-024",
+      "category": "Preparación y envío",
+      "title": "Límite de PP en PvP",
+      "body": "Los PP Max aumentados durante el juego no se trasladan al PvP. Los movimientos de curación y protección tienen un máximo de 5 PP.",
+      "source": "Combates, p. 7"
+    }
+  ],
+  "randomizer": [
+    {
+      "id": "rand-001",
+      "category": "Calidad de vida",
+      "title": "Recordador de movimientos",
+      "body": "Disponible en el café de cada Centro Pokémon.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-002",
+      "category": "Calidad de vida",
+      "title": "Level caps automáticos",
+      "body": "El juego impide que los Pokémon suban por encima del nivel permitido.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-003",
+      "category": "Calidad de vida",
+      "title": "Consumibles recuperables",
+      "body": "Bayas, Banda Focus, Hierba Única y demás objetos consumibles se recuperan al terminar el combate.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-004",
+      "category": "Calidad de vida",
+      "title": "Megaevoluciones",
+      "body": "Disponibles a partir de la quinta prueba.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-005",
+      "category": "Calidad de vida",
+      "title": "MT de las playas",
+      "body": "Son gratis y están randomizadas.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-006",
+      "category": "Pokémon y movimientos",
+      "title": "Habilidades aleatorias",
+      "body": "Cada Pokémon puede tener dos habilidades diferentes disponibles.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-007",
+      "category": "Pokémon y movimientos",
+      "title": "Iniciales",
+      "body": "Los Pokémon iniciales están randomizados y tienen dos evoluciones.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-008",
+      "category": "Pokémon y movimientos",
+      "title": "Intercambios",
+      "body": "Puede ofrecerse cualquier Pokémon a cambio de otro Pokémon aleatorio.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-009",
+      "category": "Pokémon y movimientos",
+      "title": "Movesets",
+      "body": "Movimientos totalmente aleatorios; mínimo cuatro ataques a nivel 1, probabilidad STAB del 15% y 26 ataques aprendidos por Pokémon.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-010",
+      "category": "Pokémon y movimientos",
+      "title": "Movimientos excluidos de la movepool",
+      "body": "Se excluyen Relevo y Esquema de los movimientos que se pueden aprender por nivel.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-011",
+      "category": "Pokémon y movimientos",
+      "title": "Niveles de aprendizaje",
+      "body": "12, 15, 18, 22, 25, 28, 31, 34, 37, 41, 44, 47, 50, 53, 56, 60, 63, 66, 69, 72 y 75.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-012",
+      "category": "Pokémon y movimientos",
+      "title": "Regalos estáticos",
+      "body": "Pokémon de regalo estáticos aleatorizados con 600 de BST.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-013",
+      "category": "Pokémon y movimientos",
+      "title": "Fósiles",
+      "body": "Pokémon de fósiles randomizados con 314 de BST.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-014",
+      "category": "Pokémon y movimientos",
+      "title": "Eventos",
+      "body": "Pokémon de evento randomizados tomando como referencia su BST original.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-015",
+      "category": "Pokémon y movimientos",
+      "title": "Niveles de entrenador",
+      "body": "Los niveles base de los Pokémon de entrenadores aumentan aproximadamente un 20%.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-016",
+      "category": "Pokémon y movimientos",
+      "title": "Dominantes y aliados",
+      "body": "Pokémon dominantes y sus aliados aleatorios, con dificultad progresiva y objeto equipado.",
+      "source": "Normas, p. 6"
+    },
+    {
+      "id": "rand-017",
+      "category": "Entrenadores",
+      "title": "Kahunas y jefes",
+      "body": "Kahunas, dominantes y combates importantes, incluidos los de Tilo, son más difíciles. Estos enfrentamientos tienen seis Pokémon con objetos competitivos.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-018",
+      "category": "Entrenadores",
+      "title": "Inicial de Tilo",
+      "body": "Tilo conserva su Pokémon inicial a lo largo de la aventura.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-019",
+      "category": "Entrenadores",
+      "title": "Combates dobles aleatorios",
+      "body": "7% de probabilidad de que un combate sea doble.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-020",
+      "category": "Entrenadores",
+      "title": "BST entrenador, niveles 1–14",
+      "body": "Entre 1 y 350 BST.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-021",
+      "category": "Entrenadores",
+      "title": "BST entrenador, niveles 15–19",
+      "body": "Entre 1 y 410 BST.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-022",
+      "category": "Entrenadores",
+      "title": "BST entrenador, niveles 20–29",
+      "body": "Entre 250 y 460 BST.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-023",
+      "category": "Entrenadores",
+      "title": "BST entrenador, niveles 30–42",
+      "body": "Entre 400 y 530 BST.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-024",
+      "category": "Entrenadores",
+      "title": "BST entrenador, niveles 43–59",
+      "body": "Entre 450 y 600 BST.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-025",
+      "category": "Entrenadores",
+      "title": "BST entrenador, niveles 60–67",
+      "body": "Entre 500 y 680 BST.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-026",
+      "category": "Entrenadores",
+      "title": "BST entrenador, niveles 68–76",
+      "body": "Entre 510 y 800 BST.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-027",
+      "category": "Entrenadores",
+      "title": "Entrenadores importantes",
+      "body": "Algunos entrenadores importantes tienen EV competitivos, megaevoluciones y cristales Z.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-028",
+      "category": "Entrenadores",
+      "title": "Liga Pokémon",
+      "body": "Los entrenadores de la Liga utilizan objetos, movimientos y EV competitivos.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-029",
+      "category": "Entrenadores",
+      "title": "Auras de dominantes",
+      "body": "Auras aleatorias, manteniendo la cantidad original del aumento de estadísticas.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-030",
+      "category": "Entrenadores",
+      "title": "Evoluciones finales",
+      "body": "A partir de nivel 36, todos los entrenadores tienen Pokémon completamente evolucionados.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-031",
+      "category": "Entrenadores",
+      "title": "Pokémon shiny de entrenador",
+      "body": "Probabilidad del 0,2% (1/500) de un Pokémon shiny en equipos de entrenador.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-032",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Encuentros salvajes",
+      "body": "Primeras rutas con Pokémon entre 1 y 400 BST; en el resto, randomizado completo. Los Pokémon salvajes llevan objetos equipados.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-033",
+      "category": "Salvajes, MT y tiendas",
+      "title": "MT aleatorias",
+      "body": "Las máquinas técnicas se randomizan.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-034",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Compatibilidad MT",
+      "body": "Compatibilidad completamente aleatoria. Si un Pokémon aprende una MT, su evolución también; no necesariamente al revés.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-035",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Movimientos de nivel por MT",
+      "body": "Si un Pokémon aprende un movimiento por nivel, también lo aprende mediante MT.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-036",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Tutores",
+      "body": "Los movimientos del tutor están randomizados.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-037",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Objetos del suelo",
+      "body": "Los objetos encontrados por el suelo son aleatorios.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-038",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Tiendas",
+      "body": "Tiendas de MT y objetos randomizadas.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-039",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Plumas EV",
+      "body": "Precio modificado a 10 ¥.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-040",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Poké Ball",
+      "body": "Precio modificado a 100 ¥.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-041",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Super Ball",
+      "body": "Precio modificado a 150 ¥.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-042",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Ultra Ball",
+      "body": "Precio modificado a 200 ¥.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-043",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Repelentes",
+      "body": "Todos los repelentes cuestan 50 ¥.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-044",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Escama Corazón",
+      "body": "Precio modificado a 7500 ¥.",
+      "source": "Normas, p. 7"
+    },
+    {
+      "id": "rand-045",
+      "category": "Salvajes, MT y tiendas",
+      "title": "Recogida",
+      "body": "Los objetos de la habilidad Recogida están randomizados.",
+      "source": "Normas, p. 7"
+    }
+  ],
+  "evolutions": [
+    {
+      "id": "evo-001",
+      "from": "Poliwhirl",
+      "to": "Politoed",
+      "method": "Nivel con Roca del Rey",
+      "fromDex": 61,
+      "toDex": 186,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-002",
+      "from": "Kadabra",
+      "to": "Alakazam",
+      "method": "Nivel 36",
+      "fromDex": 64,
+      "toDex": 65,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-003",
+      "from": "Graveler",
+      "to": "Golem",
+      "method": "Nivel 36",
+      "fromDex": 75,
+      "toDex": 76,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-004",
+      "from": "Machoke",
+      "to": "Machamp",
+      "method": "Nivel 36",
+      "fromDex": 67,
+      "toDex": 68,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-005",
+      "from": "Slowpoke",
+      "to": "Slowking",
+      "method": "Piedra Agua",
+      "fromDex": 79,
+      "toDex": 199,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-006",
+      "from": "Haunter",
+      "to": "Gengar",
+      "method": "Nivel 36",
+      "fromDex": 93,
+      "toDex": 94,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-007",
+      "from": "Onix",
+      "to": "Steelix",
+      "method": "Nivel con Revestimiento Metálico",
+      "fromDex": 95,
+      "toDex": 208,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-008",
+      "from": "Rhydon",
+      "to": "Rhyperior",
+      "method": "Nivel con Protector",
+      "fromDex": 112,
+      "toDex": 464,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-009",
+      "from": "Seadra",
+      "to": "Kingdra",
+      "method": "Nivel con Escama Dragón",
+      "fromDex": 117,
+      "toDex": 230,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-010",
+      "from": "Scyther",
+      "to": "Scizor",
+      "method": "Nivel con Revestimiento Metálico",
+      "fromDex": 123,
+      "toDex": 212,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-011",
+      "from": "Electabuzz",
+      "to": "Electivire",
+      "method": "Nivel con Electrizador",
+      "fromDex": 125,
+      "toDex": 466,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-012",
+      "from": "Magmar",
+      "to": "Magmortar",
+      "method": "Nivel con Magmatizador",
+      "fromDex": 126,
+      "toDex": 467,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-013",
+      "from": "Porygon",
+      "to": "Porygon2",
+      "method": "Nivel con Mejora",
+      "fromDex": 137,
+      "toDex": 233,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-014",
+      "from": "Porygon2",
+      "to": "Porygon-Z",
+      "method": "Nivel con Disco Extraño",
+      "fromDex": 233,
+      "toDex": 474,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-015",
+      "from": "Feebas",
+      "to": "Milotic",
+      "method": "Nivel con Escama Bella",
+      "fromDex": 349,
+      "toDex": 350,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-016",
+      "from": "Dusclops",
+      "to": "Dusknoir",
+      "method": "Nivel con Tela Terrible",
+      "fromDex": 356,
+      "toDex": 477,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-017",
+      "from": "Clamperl",
+      "to": "Huntail",
+      "method": "Nivel con Diente Marino",
+      "fromDex": 366,
+      "toDex": 367,
+      "source": "Normas, p. 8"
+    },
+    {
+      "id": "evo-018",
+      "from": "Clamperl",
+      "to": "Gorebyss",
+      "method": "Nivel con Escama Marina",
+      "fromDex": 366,
+      "toDex": 368,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-019",
+      "from": "Boldore",
+      "to": "Gigalith",
+      "method": "Nivel 36",
+      "fromDex": 525,
+      "toDex": 526,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-020",
+      "from": "Gurdurr",
+      "to": "Conkeldurr",
+      "method": "Nivel 36",
+      "fromDex": 533,
+      "toDex": 534,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-021",
+      "from": "Karrablast",
+      "to": "Escavalier",
+      "method": "Nivel 36",
+      "fromDex": 588,
+      "toDex": 589,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-022",
+      "from": "Shelmet",
+      "to": "Accelgor",
+      "method": "Nivel 36",
+      "fromDex": 616,
+      "toDex": 617,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-023",
+      "from": "Mantyke",
+      "to": "Mantine",
+      "method": "Nivel 30",
+      "fromDex": 458,
+      "toDex": 226,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-024",
+      "from": "Spritzee",
+      "to": "Aromatisse",
+      "method": "Nivel con Saquito Fragante",
+      "fromDex": 682,
+      "toDex": 683,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-025",
+      "from": "Swirlix",
+      "to": "Slurpuff",
+      "method": "Nivel con Dulce de Nata",
+      "fromDex": 684,
+      "toDex": 685,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-026",
+      "from": "Phantump",
+      "to": "Trevenant",
+      "method": "Nivel 36",
+      "fromDex": 708,
+      "toDex": 709,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-027",
+      "from": "Pumpkaboo",
+      "to": "Gourgeist",
+      "method": "Nivel 30",
+      "fromDex": 710,
+      "toDex": 711,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-028",
+      "from": "Graveler-Alola",
+      "to": "Golem-Alola",
+      "method": "Nivel 36",
+      "fromDex": 75,
+      "toDex": 76,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-029",
+      "from": "Lickitung",
+      "to": "Lickilicky",
+      "method": "Nivel 30",
+      "fromDex": 108,
+      "toDex": 463,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-030",
+      "from": "Tangela",
+      "to": "Tangrowth",
+      "method": "Nivel 30",
+      "fromDex": 114,
+      "toDex": 465,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-031",
+      "from": "Aipom",
+      "to": "Ambipom",
+      "method": "Nivel 30",
+      "fromDex": 190,
+      "toDex": 424,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-032",
+      "from": "Yanma",
+      "to": "Yanmega",
+      "method": "Nivel 30",
+      "fromDex": 193,
+      "toDex": 469,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-033",
+      "from": "Piloswine",
+      "to": "Mamoswine",
+      "method": "Nivel 36",
+      "fromDex": 221,
+      "toDex": 473,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-034",
+      "from": "Bonsly",
+      "to": "Sudowoodo",
+      "method": "Nivel 18",
+      "fromDex": 438,
+      "toDex": 185,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-035",
+      "from": "Mime Jr.",
+      "to": "Mr. Mime",
+      "method": "Nivel 18",
+      "fromDex": 439,
+      "toDex": 122,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-036",
+      "from": "Steenee",
+      "to": "Tsareena",
+      "method": "Nivel 30",
+      "fromDex": 762,
+      "toDex": 763,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-037",
+      "from": "Inkay",
+      "to": "Malamar",
+      "method": "Nivel 25",
+      "fromDex": 686,
+      "toDex": 687,
+      "source": "Normas, p. 9"
+    },
+    {
+      "id": "evo-038",
+      "from": "Magneton",
+      "to": "Magnezone",
+      "method": "Nivel 36; también en Cañón de Poni",
+      "fromDex": 82,
+      "toDex": 462,
+      "source": "Normas, p. 10"
+    },
+    {
+      "id": "evo-039",
+      "from": "Charjabug",
+      "to": "Vikavolt",
+      "method": "Nivel 36; también en Cañón de Poni",
+      "fromDex": 737,
+      "toDex": 738,
+      "source": "Normas, p. 10"
+    },
+    {
+      "id": "evo-040",
+      "from": "Nosepass",
+      "to": "Probopass",
+      "method": "Nivel 36; también en Cañón de Poni",
+      "fromDex": 299,
+      "toDex": 476,
+      "source": "Normas, p. 10"
+    },
+    {
+      "id": "evo-041",
+      "from": "Crabrawler",
+      "to": "Crabominable",
+      "method": "Nivel 36; también al subir nivel en Monte Lanakila",
+      "fromDex": 739,
+      "toDex": 740,
+      "source": "Normas, p. 10"
+    }
+  ],
+  "moves": [
+    {
+      "id": "move-001",
+      "name": "Día de Pago",
+      "category": "Físico",
+      "effect": "Potencia 25 y 45% de probabilidad de retroceso.",
+      "power": 25,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-002",
+      "name": "Corte",
+      "category": "Físico",
+      "effect": "Potencia 70, probabilidad de crítico +1 y pasa a tipo Planta.",
+      "power": 70,
+      "type": "Planta",
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-003",
+      "name": "Vuelo",
+      "category": "Físico",
+      "effect": "Potencia 130, precisión 100% y «-33 de recoil» según la redacción del documento.",
+      "power": 130,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-004",
+      "name": "Fuerza",
+      "category": "Físico",
+      "effect": "Potencia 80 y 30% de probabilidad de confundir.",
+      "power": 80,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-005",
+      "name": "Golpe Roca",
+      "category": "Físico",
+      "effect": "Potencia 60 y siempre baja la Defensa.",
+      "power": 60,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-006",
+      "name": "Buceo",
+      "category": "Físico",
+      "effect": "Potencia 130, precisión 100% y «-33 de recoil» según el documento.",
+      "power": 130,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-007",
+      "name": "Autodestrucción",
+      "category": "Físico",
+      "effect": "Potencia 250.",
+      "power": 250,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-008",
+      "name": "Giro Vil",
+      "category": "Físico",
+      "effect": "Potencia 30, golpea 2–5 veces y a ambos rivales; tras el ataque el usuario se confunde.",
+      "power": 30,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-009",
+      "name": "Bote",
+      "category": "Físico",
+      "effect": "Precisión 100% y 40% de probabilidad de paralizar.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-010",
+      "name": "Explosión",
+      "category": "Especial",
+      "effect": "Pasa a categoría Especial.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-011",
+      "name": "Megaagotar",
+      "category": "Especial",
+      "effect": "Potencia 60 y recupera el 75% del daño causado.",
+      "power": 60,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-012",
+      "name": "Shuriken de Agua",
+      "category": "Especial",
+      "effect": "Cada shuriken tiene potencia 20.",
+      "power": 20,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-013",
+      "name": "Pulpocañón",
+      "category": "Especial",
+      "effect": "Precisión 90%.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-014",
+      "name": "Triataque",
+      "category": "Especial",
+      "effect": "30% de probabilidad de aplicar algún efecto.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-015",
+      "name": "Gigadrenado",
+      "category": "Especial",
+      "effect": "Potencia 80.",
+      "power": 80,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-016",
+      "name": "Beso Drenaje",
+      "category": "Especial",
+      "effect": "Potencia 60.",
+      "power": 60,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-017",
+      "name": "Protecciones (general)",
+      "category": "Estado",
+      "effect": "Los movimientos de protección pasan a 5 PP.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-018",
+      "name": "Curación (general)",
+      "category": "Estado",
+      "effect": "Los movimientos de curación pasan a 5 PP, excepto Deseo.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-019",
+      "name": "Deseo",
+      "category": "Estado",
+      "effect": "Cambia de Pokémon después de usar el movimiento, de forma similar a Relevo; cura al final del turno siguiente.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-020",
+      "name": "Pantalla de Humo",
+      "category": "Estado",
+      "effect": "Es una protección sin prioridad que baja Precisión y solo funciona en el primer turno.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-021",
+      "name": "Geocontrol",
+      "category": "Estado",
+      "effect": "Aumenta Ataque Especial y Defensa Especial en +2; Velocidad en +1.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-022",
+      "name": "Aullido",
+      "category": "Estado",
+      "effect": "Sube el Ataque del usuario +3.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-023",
+      "name": "Escudo Real",
+      "category": "Estado",
+      "effect": "Solo reduce Ataque en -1 en lugar de -2.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-024",
+      "name": "Afilagarras",
+      "category": "Estado",
+      "effect": "También afecta al compañero en combates dobles.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-025",
+      "name": "Fortaleza",
+      "category": "Estado",
+      "effect": "También afecta al compañero en combates dobles.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-026",
+      "name": "Confidencia",
+      "category": "Estado",
+      "effect": "Sube Ataque Especial y afecta al compañero en combates dobles.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-027",
+      "name": "Piñón Auxiliar",
+      "category": "Estado",
+      "effect": "También aumenta Velocidad en +1.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-028",
+      "name": "Profecía",
+      "category": "Estado",
+      "effect": "Aumenta Ataque, Defensa y Velocidad en +1.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-029",
+      "name": "Meditación",
+      "category": "Estado",
+      "effect": "Puede elegir objetivo, le cura los estados y aumenta su Ataque.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-030",
+      "name": "Camaradería",
+      "category": "Estado",
+      "effect": "Afecta a los dos rivales en dobles.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-031",
+      "name": "Cara Susto",
+      "category": "Estado",
+      "effect": "Tiene prioridad y solo reduce Velocidad en -1.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-032",
+      "name": "Espora",
+      "category": "Estado",
+      "effect": "Precisión 80%.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-033",
+      "name": "Somnífero",
+      "category": "Estado",
+      "effect": "Precisión 70%.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-034",
+      "name": "Anulación",
+      "category": "Estado",
+      "effect": "Afecta a ambos rivales y dura cuatro turnos.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-035",
+      "name": "Destello",
+      "category": "Estado",
+      "effect": "Afecta a ambos rivales, paraliza, baja Evasión en -1, tiene precisión 70% y pasa a tipo Eléctrico.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-036",
+      "name": "Avivar",
+      "category": "Estado",
+      "effect": "Ahora puede escoger el objetivo.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-037",
+      "name": "Hidrochorro",
+      "category": "Estado",
+      "effect": "Inhabilita los ataques de tipo Fuego.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-038",
+      "name": "Chapoteo Lodo",
+      "category": "Estado",
+      "effect": "Inhabilita los ataques de tipo Eléctrico.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-039",
+      "name": "Conjuro",
+      "category": "Estado",
+      "effect": "También aumenta la probabilidad de crítico de todo el equipo.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-040",
+      "name": "Neblina",
+      "category": "Estado",
+      "effect": "Prioridad +3 y efecto persistente hasta que el Pokémon usuario salga del campo.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-041",
+      "name": "Polvo Explosivo",
+      "category": "Estado",
+      "effect": "Afecta a ambos rivales en dobles.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-042",
+      "name": "Fertilizante",
+      "category": "Estado",
+      "effect": "Cura 25% de la vida a todos los Pokémon de tipo Planta en el campo.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-043",
+      "name": "Cerrojo Feérico",
+      "category": "Estado",
+      "effect": "Convierte a todos los Pokémon del campo en tipo Hada, sustituyendo su efecto habitual.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-044",
+      "name": "Pesadilla",
+      "category": "Estado",
+      "effect": "Si el objetivo está despierto, lo duerme; si ya duerme, le resta 25% de PS por turno mientras continúe dormido. Precisión 80% y prioridad -1.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    },
+    {
+      "id": "move-045",
+      "name": "Camuflaje Z",
+      "category": "Estado",
+      "effect": "Aumenta todas las estadísticas en +1.",
+      "power": null,
+      "type": null,
+      "video": "",
+      "source": "Normas, pp. 10–11"
+    }
+  ],
+  "pokemonChanges": [
+    {
+      "id": "pokemon-slaking",
+      "name": "Slaking",
+      "dex": 289,
+      "bst": 600,
+      "stats": {
+        "PS": 130,
+        "Ataque": 130,
+        "Defensa": 100,
+        "Ataque Especial": 90,
+        "Defensa Especial": 65,
+        "Velocidad": 85
+      },
+      "source": "Normas, p. 11"
+    }
+  ],
+  "guides": [
+    {
+      "id": "guide-pkhex",
+      "title": "Exportar Pokémon desde PKHeX",
+      "intro": "Para llevar los Pokémon del juego a Showdown, hay que obtener el archivo de guardado main.",
+      "steps": [
+        "Abre tu archivo de guardado «main» con PKHeX.",
+        "En Herramientas → Showdown, elige la opción de exportación de los Pokémon del equipo y/o cajas.",
+        "Copia el texto generado.",
+        "En Pokémon Showdown, abre el Constructor de equipos → Nuevo equipo → Importar/Exportar.",
+        "Pega el contenido y guarda el equipo.",
+        "Antes de combatir, ajusta todos los EV a 1 y los IV a 31."
+      ],
+      "image": "assets/guias/pkhex.webp",
+      "links": [],
+      "source": "Combates, pp. 4–6"
+    },
+    {
+      "id": "guide-pokepaste",
+      "title": "Listas abiertas y PokéPaste",
+      "intro": "Los enlaces de las tres listas deben compartirse en el canal de Discord con al menos un día de antelación.",
+      "steps": [
+        "Crea y verifica los tres equipos dentro de Pokémon Showdown.",
+        "Comprueba que los Equipos 1 y 2 no comparten especies de Pokémon y que el Equipo 3 puede repetirlos.",
+        "Utiliza «Subir a PokéPaste» desde cada equipo.",
+        "Copia las URL resultantes.",
+        "Comparte las tres URL en el canal indicado (#equipos_combates según una sección; #equipo_combates en otra)."
+      ],
+      "image": "assets/guias/pokepaste.webp",
+      "links": [],
+      "source": "Combates, pp. 6–7"
+    },
+    {
+      "id": "guide-radmin",
+      "title": "Conectarse al Showdown privado con Radmin VPN",
+      "intro": "El servidor privado incluye los movimientos personalizados del romhack. No es una página pública que funcione sin la VPN.",
+      "steps": [
+        "Descarga e instala Radmin VPN; no necesita cuenta.",
+        "Únete a la red usando el nombre y la contraseña proporcionados por la administración.",
+        "Ejecuta el archivo .bat privado que la administración entrega a cada equipo; protege la dirección real.",
+        "Con ambos requisitos completos, abre http://torneoultranovaeris.eris:8000/ en el navegador."
+      ],
+      "image": "",
+      "links": [
+        {
+          "label": "Radmin VPN",
+          "url": "https://www.radmin-vpn.com/es/"
+        }
+      ],
+      "source": "Combates, p. 7"
+    },
+    {
+      "id": "guide-translation",
+      "title": "Showdown y PokéPaste en español",
+      "intro": "La traducción es opcional. Se utiliza Tampermonkey y dos scripts facilitados por la organización.",
+      "steps": [
+        "Instala la extensión Tampermonkey.",
+        "Abre Tampermonkey y selecciona Crear un nuevo script.",
+        "Elimina el código del editor, abre el gist de Showdown, pulsa «view the full file» y copia todo el contenido.",
+        "Pega el script y utiliza Archivo → Guardar. También está disponible un .txt en #utilidades de Discord.",
+        "Repite el mismo procedimiento con el gist de PokéPaste. Al entrar a PokéPaste aparecerá el botón azul de traducción."
+      ],
+      "image": "",
+      "links": [
+        {
+          "label": "Tampermonkey",
+          "url": "https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=es"
+        },
+        {
+          "label": "Script de Showdown",
+          "url": "https://gist.github.com/Dielogan/4d7cbdec6d41e16d239db79a8779559c"
+        },
+        {
+          "label": "Script de PokéPaste",
+          "url": "https://gist.github.com/Dielogan/4447f0488ca75f68f9696e25588984d9"
+        }
+      ],
+      "source": "Combates, pp. 7–9"
+    },
+    {
+      "id": "guide-tools",
+      "title": "Herramientas opcionales",
+      "intro": "Complementos recomendados en el documento para la experiencia de combate.",
+      "steps": [
+        "Stylish permite instalar temas y personalizar el aspecto de Showdown.",
+        "Pokémon Showdown Type Helper ayuda a visualizar ventajas y resistencias de tipos.",
+        "Showdex incorpora una calculadora aproximada del daño, con configuración personalizable; el documento advierte que la estimación no considera IV ni EV."
+      ],
+      "image": "",
+      "links": [
+        {
+          "label": "Stylish",
+          "url": "https://chromewebstore.google.com/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=es"
+        },
+        {
+          "label": "Type Helper",
+          "url": "https://chromewebstore.google.com/detail/pokemon-showdown-type-hel/ajhdnfehenofjfbajfdhjoankdheielc?hl=es"
+        },
+        {
+          "label": "Showdex",
+          "url": "https://chromewebstore.google.com/detail/showdex/dabpnahpcemkfbgfbmegmncjllieilai?hl=es"
+        }
+      ],
+      "source": "Combates, pp. 10–11"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Límite de búsqueda shiny",
+      "body": "El documento indica «máximo 1 shiny por persona y por tramo», pero el ejemplo posterior dice «máximo de un shiny por equipo». Hasta que administración confirme cuál prevalece, se muestran ambas redacciones sin decidir por ella.",
+      "source": "Normas, p. 5"
+    },
+    {
+      "title": "Level cap: formulación original",
+      "body": "El texto fija que los Pokémon estén al mismo nivel o por debajo del Pokémon más fuerte de la siguiente prueba, y añade que no pueden usarse Pokémon que estén a 2 niveles más que el level cap. La redacción se reproduce para evitar introducir una interpretación distinta.",
+      "source": "Normas, p. 3"
+    },
+    {
+      "title": "Canal de envío de equipos",
+      "body": "El documento de combates menciona «#equipos_combates» y, en otro lugar, «#equipo_combates». Verifica con administración el canal vigente.",
+      "source": "Combates, pp. 6–7"
+    },
+    {
+      "title": "Fechas no detalladas",
+      "body": "Se anuncia el inicio el 6 de noviembre y dos tramos de dos semanas. Las fechas concretas se anuncian en Discord; no se ha añadido ningún calendario supuesto.",
+      "source": "Normas, pp. 1 y 6"
+    }
+  ]
+}

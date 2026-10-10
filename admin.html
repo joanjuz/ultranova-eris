@@ -1,0 +1,28 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Editor · Ultranova Eris</title><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="css/site.css"><script type="module" src="js/admin.js"></script></head>
+<body data-theme="ultrasol"><div class="topline"><span>ERIS / ULTRANOVA</span><span>PANEL DE EDICIÓN</span></div><header class="shell admin-header"><div class="brand"><span class="brand-symbol"><i></i></span><span><strong>ULTRANOVA</strong><small>GESTIÓN DEL CONTENIDO</small></span></div><a href="index.html">← Volver al sitio</a></header>
+<main class="shell">
+ <div class="page-title"><small>EDITOR DE CONTENIDO / GITHUB PAGES</small><h1>Panel de administración</h1><p>Edita el contenido estructurado del sitio. Guarda borradores y publícalos directamente en el repositorio GitHub con tus propios permisos.</p></div>
+ <div class="admin-grid">
+  <section class="admin-card"><h2>Contenido del sitio</h2><p>Selecciona una sección y una entrada. Todos los campos son editables; las colecciones admiten elementos nuevos.</p>
+   <div class="field"><label for="admin-collection">Colección</label><select id="admin-collection"></select></div>
+   <div class="admin-list" id="admin-items" aria-label="Entradas de la colección"></div>
+   <div class="admin-actions" style="margin-top:12px"><button type="button" id="admin-add" class="secondary">+ Nueva entrada</button><button type="button" id="admin-delete" class="secondary admin-danger">Eliminar entrada</button></div>
+  </section>
+  <section class="admin-card"><div class="u3-ed-head"><h2>Editar entrada</h2><div class="admin-subtitle" id="admin-current">SIN SELECCIÓN</div></div><div id="admin-fields"></div><div class="admin-actions"><button type="button" id="admin-save">Guardar borrador</button><button type="button" id="admin-preview" class="secondary">Previsualizar</button><button type="button" id="admin-export" class="secondary">Exportar JSON</button><button type="button" id="admin-import" class="secondary">Importar JSON</button><input id="admin-import-file" type="file" accept=".json,application/json" hidden></div><div class="admin-status" id="admin-draft-status" role="status">Cargando contenido...</div></section>
+ </div>
+ <div class="admin-grid" style="margin-top:0">
+  <section class="admin-card"><h2>Conexión con GitHub</h2><p>Introduce el repositorio donde estará publicada la web. El token se usa únicamente en esta sesión y no se incorpora al sitio ni a los archivos JSON.</p>
+   <div class="field"><label for="repo-owner">Propietario / organización</label><input id="repo-owner" type="text" autocomplete="off" placeholder="usuario-de-github"></div>
+   <div class="field"><label for="repo-name">Repositorio</label><input id="repo-name" type="text" autocomplete="off" placeholder="ultranova-eris"></div>
+   <div class="field"><label for="repo-branch">Rama</label><input id="repo-branch" type="text" autocomplete="off" value="main"></div>
+   <div class="field"><label for="github-token">Token personal de acceso de GitHub</label><input id="github-token" type="password" autocomplete="off" placeholder="Token fine-grained, Contents: Read and write"><small>No se guarda en localStorage ni se envía a servicios ajenos a la API de GitHub. Caduca según la configuración que establezcas en GitHub.</small></div>
+   <div class="admin-actions"><button id="github-verify" class="secondary" type="button">Verificar acceso</button><button id="github-publish" type="button">Publicar en GitHub →</button></div>
+   <div class="admin-status" id="github-status" role="status">Conecta un repositorio para poder publicar.</div>
+  </section>
+  <section class="admin-card"><h2>Vídeos capturados del romhack</h2><p>Elige una entrada de <strong>Movimientos</strong> y sube su clip grabado. Se alojará dentro del repositorio, en la carpeta de medios de la web.</p>
+   <div class="admin-video"><div class="field"><label for="video-file">Archivo MP4 o WebM</label><input type="file" id="video-file" accept="video/mp4,video/webm,.mp4,.webm"><small>Recomendación: clips cortos y comprimidos, hasta 10 MB por archivo en este editor.</small></div><div class="admin-actions"><button id="video-upload" type="button" class="secondary">Subir clip al repositorio</button></div><p id="video-status" role="status">El clip se vincula automáticamente a la ficha seleccionada, pero debes publicar el contenido JSON después.</p></div>
+   <hr class="admin-divider"><h2>Flujo de publicación</h2><div class="admin-steps"><div><b>01</b> Editar o crear entradas</div><div><b>02</b> Guardar borrador y revisar la vista previa</div><div><b>03</b> Publicar la información en GitHub</div><div><b>04</b> GitHub Pages actualiza la web con el nuevo contenido</div></div><p class="admin-tip">El editor se puede abrir desde una página pública, pero publicar requiere acceso de escritura al repositorio. No pongas un token en el repositorio ni lo compartas con nadie.</p>
+  </section>
+ </div>
+</main><footer class="footer"><div class="shell footer-inner"><div><strong>ULTRANOVA</strong><small>PANEL DE CONTENIDO · ERIS</small></div><a href="index.html" class="footer-admin">Volver al torneo</a></div></footer>
+</body></html>
