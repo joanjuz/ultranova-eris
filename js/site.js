@@ -33,13 +33,13 @@ async function boot(){
   const previewMode=new URLSearchParams(location.search).get('preview')==='1';
   let localPreview=null;try{if(previewMode)localPreview=JSON.parse(localStorage.getItem('eris.previewData')||'null')}catch{}
   if(localPreview?.meta&&Array.isArray(localPreview.rules)){data=localPreview;$('#preview-banner').hidden=false;}else{const res=await fetch(DATA_URL,{cache:'no-store'});if(!res.ok)throw new Error(`HTTP ${res.status}`);data=await res.json();}
-  loading.hidden=true;$('#app').hidden=false;
   populateHome();initCategories();renderRules();renderStages();renderPhases();renderSoul();renderMoves();renderPokedex();renderBattles();renderRandomizer();renderGuides();
   setupTheme();document.addEventListener('click',handleClick);window.addEventListener('popstate',()=>route(new URLSearchParams(location.search).get('seccion')||'inicio',false));
   ['rules-search','moves-search','evo-search','battle-search','rand-search'].forEach(id=>{$('#'+id).addEventListener('input',()=>({ 'rules-search':renderRules,'moves-search':renderMoves,'evo-search':renderPokedex,'battle-search':renderBattles,'rand-search':renderRandomizer}[id])());});
   $('#video-close').addEventListener('click',()=>$('#video-dialog').close());$('#video-dialog').addEventListener('click',(e)=>{if(e.target===$('#video-dialog'))$('#video-dialog').close()});
   route(new URLSearchParams(location.search).get('seccion')||'inicio',false);
- }catch(err){loading.textContent='No se pudo cargar el contenido. Abre el sitio a través de un servidor local (por ejemplo, python -m http.server 8000) o desde GitHub Pages. Detalle: '+err.message;console.error(err)}
+  $('#app').hidden=false;loading.hidden=true;
+ }catch(err){$('#app').hidden=true;loading.hidden=false;loading.textContent='No se pudo cargar el contenido. Abre el sitio a través de un servidor local (por ejemplo, python -m http.server 8000) o desde GitHub Pages. Detalle: '+err.message;console.error(err)}
 }
 function populateHome(){const m=data.meta;
  $('#hero-title').textContent=m.heroTitle;$('#hero-subtitle').textContent=m.heroSubtitle;$('#hero-description').textContent=m.heroDescription;$('#announcement').textContent=m.announcement;
