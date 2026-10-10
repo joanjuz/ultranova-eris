@@ -1830,8 +1830,7 @@
         "Crea y verifica los tres equipos dentro de Pokémon Showdown.",
         "Comprueba que los Equipos 1 y 2 no comparten especies de Pokémon y que el Equipo 3 puede repetirlos.",
         "Utiliza «Subir a PokéPaste» desde cada equipo.",
-        "Copia las URL resultantes.",
-        "Comparte las URL en el canal indicado."
+        "Copia las URL resultantes."
       ],
       "image": "assets/guias/pokepaste.webp",
       "links": [],
