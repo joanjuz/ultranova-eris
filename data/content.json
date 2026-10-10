@@ -1337,7 +1337,7 @@
       "effect": "Potencia 25 y 45% de probabilidad de retroceso.",
       "power": 25,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-001-dia-de-pago.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1527,7 +1527,7 @@
       "effect": "Es una protección sin prioridad que baja Precisión y solo funciona en el primer turno.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-020-pantalla-de-humo.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1577,7 +1577,7 @@
       "effect": "También afecta al compañero en combates dobles.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-025-fortaleza.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1594,10 +1594,10 @@
       "id": "move-027",
       "name": "Piñón Auxiliar",
       "category": "Estado",
-      "effect": "También aumenta Velocidad en +1.",
+      "effect": "También aumenta Velocidad en +1. (Solo a pokémon con más o menos)",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-027-pinon-auxiliar.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1607,7 +1607,7 @@
       "effect": "Aumenta Ataque, Defensa y Velocidad en +1.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-028-profecia.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1617,7 +1617,7 @@
       "effect": "Puede elegir objetivo, le cura los estados y aumenta su Ataque.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-029-meditacion.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1727,7 +1727,7 @@
       "effect": "Prioridad +3 y efecto persistente hasta que el Pokémon usuario salga del campo.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-040-neblina.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1767,7 +1767,7 @@
       "effect": "Si el objetivo está despierto, lo duerme; si ya duerme, le resta 25% de PS por turno mientras continúe dormido. Precisión 80% y prioridad -1.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-044-pesadilla.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
