@@ -12,7 +12,19 @@ a{color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}
 
 .admin-card .field textarea.text-long{min-height:110px}.admin-card .field textarea[data-json=true]{min-height:130px}.admin-card .field input.text-short{min-height:0}
 .hero-rings:before{content:"";position:absolute;top:calc(50% - 11px);left:0;width:100%;height:22px;background:#ffffff28}.hero-rings:after{content:"";position:absolute;top:calc(50% - 27px);left:calc(50% - 27px);width:54px;height:54px;border:11px solid #ffffff3b;background:var(--hero-glow);border-radius:50%;box-sizing:border-box}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
 
+.brand-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
 /* Ultranova V1.1: visibilidad de estados SoulLink y corte entre fases */
 .soul-artwork{height:160px;display:flex;align-items:center;justify-content:center}
 .trainer-panel .soul-artwork img{width:100%;height:100%;object-fit:contain}
