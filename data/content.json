@@ -282,13 +282,6 @@
       "source": "Normas, p. 3"
     },
     {
-      "id": "rule-020",
-      "category": "Objetos y nivel",
-      "title": "Level cap",
-      "body": "Los Pokémon deben estar al mismo nivel o por debajo del Pokémon de mayor nivel de la siguiente prueba. El documento añade que no podrán utilizarse Pokémon situados 2 niveles por encima del level cap.",
-      "source": "Normas, p. 3"
-    },
-    {
       "id": "rule-021",
       "category": "Objetos y nivel",
       "title": "Norma de Liga: Restaurar Todo",
@@ -376,7 +369,7 @@
       "id": "rule-033",
       "category": "Configuración y excepciones",
       "title": "Búsqueda de Pokémon shiny",
-      "body": "Solo se pueden buscar shinies tras completar un tramo antes de la fecha límite. Se permiten cadenas con nervioesfera, pesca y otros métodos, siempre en directo. El texto dice «máximo 1 shiny por persona y por tramo», mientras el ejemplo dice «máximo uno por equipo». Ver nota de organización.",
+      "body": "La búsqueda de Pokémon shiny se permite si se termina el tramo antes de la fecha establecida. Se permiten cadenas con nervioesfera, pesca y otros métodos, siempre en directo. No hay un máximo de shinies por persona ni por equipo.",
       "source": "Normas, p. 5"
     },
     {
@@ -1919,21 +1912,6 @@
     }
   ],
   "notes": [
-    {
-      "title": "Límite de búsqueda shiny",
-      "body": "El documento indica «máximo 1 shiny por persona y por tramo», pero el ejemplo posterior dice «máximo de un shiny por equipo». Hasta que administración confirme cuál prevalece, se muestran ambas redacciones sin decidir por ella.",
-      "source": "Normas, p. 5"
-    },
-    {
-      "title": "Level cap: formulación original",
-      "body": "El texto fija que los Pokémon estén al mismo nivel o por debajo del Pokémon más fuerte de la siguiente prueba, y añade que no pueden usarse Pokémon que estén a 2 niveles más que el level cap. La redacción se reproduce para evitar introducir una interpretación distinta.",
-      "source": "Normas, p. 3"
-    },
-    {
-      "title": "Canal de envío de equipos",
-      "body": "El documento de combates menciona «#equipos_combates» y, en otro lugar, «#equipo_combates». Verifica con administración el canal vigente.",
-      "source": "Combates, pp. 6–7"
-    },
     {
       "title": "Fechas no detalladas",
       "body": "Se anuncia el inicio el 6 de noviembre y dos tramos de dos semanas. Las fechas concretas se anuncian en Discord; no se ha añadido ningún calendario supuesto.",
