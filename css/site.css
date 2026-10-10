@@ -36,3 +36,21 @@ a{color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}
 .phase-divider::before,.phase-divider::after{content:"";border-top:2px dashed currentColor;min-width:8px;flex:1;opacity:.65}
 .phase-divider span{max-width:67%}
 @media(max-width:600px){.soul-artwork{height:100px}.soul-placeholder{min-height:88px;font-size:10px;letter-spacing:.2px;padding:4px}.soul-placeholder.is-miss{font-size:23px}.phase-divider{font-size:9px;gap:6px}}
+
+/* Ajuste del logotipo V1.1.4: cabecera estable en ambos temas y pantallas */
+.masthead .brand,.admin-header .brand{min-width:0;max-width:100%;gap:13px}
+.masthead .brand>span,.admin-header .brand>span{min-width:0}
+.masthead .brand-logo,.admin-header .brand-logo{
+ display:block;
+ width:56px;height:56px;
+ max-width:56px;max-height:56px;
+ flex:0 0 56px;
+ object-fit:contain;
+ aspect-ratio:1/1;
+}
+@media(max-width:600px){
+ .masthead .brand,.admin-header .brand{gap:8px}
+ .masthead .brand-logo,.admin-header .brand-logo{
+  width:42px;height:42px;max-width:42px;max-height:42px;flex-basis:42px;
+ }
+}
