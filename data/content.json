@@ -1517,7 +1517,7 @@
       "effect": "Cambia de Pokémon después de usar el movimiento, de forma similar a Relevo; cura al final del turno siguiente.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-019-deseo.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1587,7 +1587,7 @@
       "effect": "Sube Ataque Especial y afecta al compañero en combates dobles.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-026-confidencia.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1627,7 +1627,7 @@
       "effect": "Afecta a los dos rivales en dobles.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-030-camaraderia.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1637,7 +1637,7 @@
       "effect": "Tiene prioridad y solo reduce Velocidad en -1.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-031-cara-susto.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1677,7 +1677,7 @@
       "effect": "Afecta a ambos rivales, paraliza, baja Evasión en -1, tiene precisión 70% y pasa a tipo Eléctrico.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-035-destello.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1694,20 +1694,20 @@
       "id": "move-037",
       "name": "Hidrochorro",
       "category": "Estado",
-      "effect": "Inhabilita los ataques de tipo Fuego.",
+      "effect": "Inhabilita los ataques de tipo Fuego. (Solo hacen 1 ps)",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-037-hidrochorro.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
       "id": "move-038",
       "name": "Chapoteo Lodo",
       "category": "Estado",
-      "effect": "Inhabilita los ataques de tipo Eléctrico.",
+      "effect": "Inhabilita los ataques de tipo Eléctrico. (Solo hacen 1 ps)",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-038-chapoteo-lodo.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1757,7 +1757,7 @@
       "effect": "Convierte a todos los Pokémon del campo en tipo Hada, sustituyendo su efecto habitual.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-043-cerrojo-feerico.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
