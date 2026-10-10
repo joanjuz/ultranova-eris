@@ -1564,10 +1564,10 @@
       "id": "move-024",
       "name": "Afilagarras",
       "category": "Estado",
-      "effect": "También afecta al compañero en combates dobles.",
+      "effect": "Afecta a ambos compañeros en combates dobles.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-024-afilagarras.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
