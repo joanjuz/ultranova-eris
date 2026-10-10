@@ -1404,10 +1404,10 @@
       "id": "move-008",
       "name": "Giro Vil",
       "category": "Físico",
-      "effect": "Potencia 30, golpea 2–5 veces y a ambos rivales; tras el ataque el usuario se confunde.",
-      "power": 30,
+      "effect": "Potencia 20, golpea 2–5 veces y a ambos rivales; tras el ataque el usuario se confunde.",
+      "power": 20,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-008-giro-vil.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
@@ -1747,7 +1747,7 @@
       "effect": "Cura 25% de la vida a todos los Pokémon de tipo Planta en el campo.",
       "power": null,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-042-fertilizante.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
