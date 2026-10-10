@@ -5,7 +5,7 @@
     "heroTitle": "ULTRANOVA",
     "heroSubtitle": "Pokémon UltraSol / UltraLuna",
     "heroDescription": "Torneo por parejas con reglas SoulLink y enfrentamientos dobles competitivos. Consulta la normativa, los límites de nivel, las modificaciones del romhack y el formato de los combates.",
-    "announcement": "El torneo comienza el 6 de noviembre. Todas las fechas del calendario se anunciarán en el Discord oficial de Eris.",
+    "announcement": "Inicio anunciado: 6 de noviembre. Las fechas exactas y los emparejamientos se comunican en el servidor de Discord.",
     "format": "Por parejas, combates dobles",
     "teams": "16/32",
     "game": "Romhack Pokémon UltraSol / UltraLuna",
@@ -250,7 +250,7 @@
       "id": "rule-015",
       "category": "Capturas y SoulLink",
       "title": "Muerte vinculada durante combate",
-      "body": "Si el Pokémon vinculado de un jugador se debilita mientras el otro jugador está usando su pareja en un combate, la segunda muerte se aplica al finalizar ese combate.",
+      "body": "Si el Pokémon vinculado de un jugador se debilita cuando el otro jugador está usando su pareja en un combate, la segunda muerte se aplica al terminar ese combate. Ejemplo: Bagon y Sewaddle.",
       "source": "Normas, p. 2"
     },
     {
@@ -369,7 +369,7 @@
       "id": "rule-033",
       "category": "Configuración y excepciones",
       "title": "Búsqueda de Pokémon shiny",
-      "body": "La búsqueda deliberada de Pokémon shiny solo se permite si se ha terminado el tramo antes de la fecha establecida, siempre en directo. Se permiten cadenas con nervioesfera, pesca y otros métodos. El límite es de un Pokémon shiny por tramo.",
+      "body": "La búsqueda de Pokémon shiny se permite si se termina el tramo antes de la fecha establecida. Se permiten cadenas con nervioesfera, pesca y otros métodos, siempre en directo. No hay un máximo de shinies por persona ni por equipo.",
       "source": "Normas, p. 5"
     },
     {
@@ -406,13 +406,6 @@
       "title": "Caramelos raros y artículos permitidos",
       "body": "Se pueden comprar y utilizar caramelos raros, escamas corazón y plumas.",
       "source": "Normas, p. 5"
-    },
-    {
-      "id": "rule-047",
-      "category": "Configuración y excepciones",
-      "title": "Repartir Experiencia prohibido",
-      "body": "Está prohibido utilizar el objeto Repartir Experiencia durante la aventura.",
-      "source": "Actualización de reglas de la organización"
     },
     {
       "id": "rule-039",
@@ -954,7 +947,7 @@
       "id": "rand-044",
       "category": "Salvajes, MT y tiendas",
       "title": "Escama Corazón",
-      "body": "Precio modificado a 7500 ¥.",
+      "body": "Precio modificado a 5000 ¥.",
       "source": "Normas, p. 7"
     },
     {
@@ -1361,7 +1354,7 @@
       "id": "move-003",
       "name": "Vuelo",
       "category": "Físico",
-      "effect": "Potencia 130, precisión 100 % y retroceso del 33 %.",
+      "effect": "Potencia 130, precisión 100% y «-33 de recoil» según la redacción del documento.",
       "power": 130,
       "type": null,
       "video": "",
@@ -1391,7 +1384,7 @@
       "id": "move-006",
       "name": "Buceo",
       "category": "Físico",
-      "effect": "Potencia 130, precisión 100 % y retroceso del 33 %.",
+      "effect": "Potencia 130, precisión 100% y «-33 de recoil» según el documento.",
       "power": 130,
       "type": null,
       "video": "",
@@ -1401,7 +1394,7 @@
       "id": "move-007",
       "name": "Autodestrucción",
       "category": "Físico",
-      "effect": "Ahora es de categoría física y tiene 250 de potencia.",
+      "effect": "Potencia 250.",
       "power": 250,
       "type": null,
       "video": "",
@@ -1825,12 +1818,13 @@
     {
       "id": "guide-pokepaste",
       "title": "Listas abiertas y PokéPaste",
-      "intro": "PokéPaste permite generar las URL de las listas abiertas. Los equipos deben prepararse y entregarse con la antelación establecida en el reglamento de combates.",
+      "intro": "Los enlaces de las tres listas deben compartirse en el canal de Discord con al menos un día de antelación.",
       "steps": [
         "Crea y verifica los tres equipos dentro de Pokémon Showdown.",
         "Comprueba que los Equipos 1 y 2 no comparten especies de Pokémon y que el Equipo 3 puede repetirlos.",
         "Utiliza «Subir a PokéPaste» desde cada equipo.",
-        "Copia las URL resultantes."
+        "Copia las URL resultantes.",
+        "Comparte las URL en el canal indicado."
       ],
       "image": "assets/guias/pokepaste.webp",
       "links": [],
@@ -1912,9 +1906,9 @@
   ],
   "notes": [
     {
-      "title": "Fechas anunciadas en Discord",
-      "body": "El torneo comienza el 6 de noviembre. Todas las fechas de los tramos y los enfrentamientos se anunciarán en el Discord oficial de Eris.",
-      "source": "Organización del torneo · Fechas"
+      "title": "Fechas no detalladas",
+      "body": "Se anuncia el inicio el 6 de noviembre y dos tramos de dos semanas. Las fechas concretas se anuncian en Discord; no se ha añadido ningún calendario supuesto.",
+      "source": "Normas, pp. 1 y 6"
     }
   ]
 }
