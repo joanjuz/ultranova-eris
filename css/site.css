@@ -12,3 +12,15 @@ a{color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}
 
 .admin-card .field textarea.text-long{min-height:110px}.admin-card .field textarea[data-json=true]{min-height:130px}.admin-card .field input.text-short{min-height:0}
 .hero-rings:before{content:"";position:absolute;top:calc(50% - 11px);left:0;width:100%;height:22px;background:#ffffff28}.hero-rings:after{content:"";position:absolute;top:calc(50% - 27px);left:calc(50% - 27px);width:54px;height:54px;border:11px solid #ffffff3b;background:var(--hero-glow);border-radius:50%;box-sizing:border-box}
+
+/* Ultranova V1.1: visibilidad de estados SoulLink y corte entre fases */
+.soul-artwork{height:160px;display:flex;align-items:center;justify-content:center}
+.trainer-panel .soul-artwork img{width:100%;height:100%;object-fit:contain}
+.trainer-panel .soul-artwork img.is-fainted{filter:grayscale(1);opacity:.76}
+.soul-artwork [hidden]{display:none!important}
+.soul-placeholder{width:100%;height:100%;min-height:100px;display:flex;align-items:center;justify-content:center;text-align:center;word-break:normal;padding:12px;border:2px dashed var(--line);background:var(--panel-2);border-radius:8px;color:var(--ink-soft);font-size:16px;line-height:1.4;letter-spacing:1.2px;font-weight:950}
+.soul-placeholder.is-miss{font-size:30px;letter-spacing:2px;color:#bd5250}
+.phase-divider{display:flex;align-items:center;gap:10px;color:var(--primary);font-size:10px;font-weight:950;letter-spacing:.8px;text-align:center;line-height:1.5;padding:16px 0 12px}
+.phase-divider::before,.phase-divider::after{content:"";border-top:2px dashed currentColor;min-width:8px;flex:1;opacity:.65}
+.phase-divider span{max-width:67%}
+@media(max-width:600px){.soul-artwork{height:100px}.soul-placeholder{min-height:88px;font-size:10px;letter-spacing:.2px;padding:4px}.soul-placeholder.is-miss{font-size:23px}.phase-divider{font-size:9px;gap:6px}}
