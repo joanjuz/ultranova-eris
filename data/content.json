@@ -1354,10 +1354,10 @@
       "id": "move-003",
       "name": "Vuelo",
       "category": "Físico",
-      "effect": "Potencia 130, precisión 100% y «-33 de recoil» según la redacción del documento.",
+      "effect": "Potencia 130, precisión 100% y se inflige 1/3 del daño causado a si mismo.",
       "power": 130,
       "type": null,
-      "video": "",
+      "video": "assets/media/movimientos/move-003-vuelo.mp4",
       "source": "Normas, pp. 10–11"
     },
     {
