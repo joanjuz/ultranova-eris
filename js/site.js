@@ -72,7 +72,7 @@ function renderSoul(){
   placeholder.classList.toggle('is-miss',spec.placeholder==='MISS');
   $(`#soul-name-${side}`).textContent=spec.name||(side==='a'?'Mudkip':'Salamence');
  }
- $('[data-scenario]').forEach(b=>b.classList.toggle('active',b.dataset.scenario===scenario));
+ $$('[data-scenario]').forEach(b=>b.classList.toggle('active',b.dataset.scenario===scenario));
  const terms=['vínculo','shiny','ruta','muerte','captura','fósiles','debilit'];
  renderList(data.rules.filter(x=>x.category==='Capturas y SoulLink'&&terms.some(term=>q(x.title).includes(term))).slice(0,8),'#soul-related');
 }
