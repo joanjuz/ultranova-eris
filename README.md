@@ -104,9 +104,9 @@ scripts/verify_content.py       Comprobaciones del contenido
 
 Se han conservado expresamente algunas diferencias de redacción, **sin resolverlas por cuenta propia**:
 
-- En búsqueda de shinies el texto indica máximo uno *por persona y por tramo*, pero en el ejemplo posterior dice *uno por equipo*.
-- Para el canal de los equipos aparecen `#equipos_combates` y `#equipo_combates`.
-- La condición del level cap incluye la frase sobre Pokémon a dos niveles por encima. En la web no se introduce una interpretación nueva.
+- Se eliminó el máximo de shinies por persona o equipo. La búsqueda sigue permitida al concluir el tramo antes de la fecha fijada, siempre en directo.
+- El canal oficial para enviar las listas de equipos es `#equipos_combates`.
+- Los level caps se aplican automáticamente mediante Quality of Life. El mapa conserva los valores de referencia, sin la norma manual antigua.
 - El PDF indica la fecha de inicio, pero no todas las fechas concretas de competición.
 
 La pestaña **Reglamento**, en «Aspectos por confirmar», muestra las observaciones. El editor permite actualizar esos textos cuando la administración decida.
@@ -131,3 +131,11 @@ El archivo `data/content.json` contiene, inicialmente:
 - 4 observaciones de documentos por confirmar.
 
 Se adjuntan ambos PDF para consulta y comprobación de la fuente. Los contenidos del sitio son una **reestructuración explicativa**, no una reproducción página por página. La interfaz es una primera versión funcional y puede ampliarse sin reescribir los datos.
+
+## Ajustes V1.1 (10 de octubre de 2026)
+
+- UltraLuna es el tema inicial; la elección manual del visitante se conserva.
+- El buscador de movimientos solo muestra «Ver clip» cuando hay un vídeo enlazado válido.
+- SoulLink diferencia Pokémon debilitados (escala de grises), capturas fallidas (MISS), excepciones shiny (Sin vínculo) y bajas durante combates.
+- El mapa marca visualmente el fin de la primera fase tras Zarala (nivel 42).
+- Calendario: comienzo el 6 de noviembre, demás fechas aún por comunicar.
