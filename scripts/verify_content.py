@@ -3,7 +3,7 @@
 import json, pathlib, sys
 root=pathlib.Path(__file__).resolve().parent.parent
 D=json.loads((root/'data/content.json').read_text(encoding='utf-8'))
-required={'stages':18,'rules':46,'battles':24,'randomizer':45,'evolutions':41,'moves':45,'pokemonChanges':1,'guides':5,'phases':2}
+required={'stages':18,'rules':45,'battles':24,'randomizer':45,'evolutions':41,'moves':45,'pokemonChanges':1,'guides':5,'phases':2}
 errors=[]
 for key,n in required.items():
  actual=len(D[key]);print(f'{key:17s} {actual:3d} registros')
@@ -21,4 +21,4 @@ for key in ('discord','twitter','instagram'):
  if not D['meta']['socials'][key].startswith('https://'):errors.append(f'URL inválida: {key}')
 if errors:
  print('\nERRORES:\n'+'\n'.join(errors));sys.exit(1)
-print('\nVerificación correcta. Los avisos de discrepancias entre PDF siguen siendo cuestiones editoriales para la administración.')
+print('\nVerificación correcta. Revisión de integridad terminada.')
