@@ -12,15 +12,13 @@ const scenarios={
  capture:{label:'SITUACIÓN 01',heading:'Captura válida en ambos juegos',a:'CAPTURADO · RUTA 1',b:'CAPTURADO · RUTA 1',status:'VÍNCULO ACTIVO',body:'Los dos Pokémon de la misma ruta quedan vinculados. Si uno se debilita, el otro también se considera muerto. Mudkip y Salamence representan una pareja válida de ruta 1.'},
  death:{label:'SITUACIÓN 02',heading:'Pérdida de un Pokémon vinculado',a:'DEBILITADO',b:'DEBILITADO POR VÍNCULO',status:'AMBOS FUERA DE USO',body:'Si Mudkip muere, Salamence también queda fuera del desafío. No es posible volver a utilizarlos, salvo las excepciones a la regla de revivir.'},
  fail:{label:'SITUACIÓN 03',heading:'Uno de los jugadores falla su captura',a:'CAPTURA FALLIDA',b:'CAPTURA ILEGAL',status:'SIN PAREJA VÁLIDA',body:'Si el primer jugador no consigue su Pokémon de ruta, el Pokémon capturado por el segundo jugador también queda fuera de uso. Ambos pierden la oportunidad de esa ruta.'},
- shiny:{label:'SITUACIÓN 04',heading:'Captura de un Pokémon shiny',a:'ENCUENTRO SHINY (EJEMPLO)',b:'SIN VÍNCULO ESPECIAL',status:'EXCEPCIÓN SHINY',body:'Un shiny puede capturarse y utilizarse aunque ya se haya realizado el encuentro de esa ruta. Los Pokémon shiny no están vinculados al Pokémon del compañero. La búsqueda se permite tras completar el tramo antes de la fecha establecida, siempre en directo y sin límite de shinies.'},
- combat:{label:'SITUACIÓN 05',heading:'El vínculo muere durante un combate',a:'DEBILITADO',b:'AÚN EN COMBATE',status:'MUERTE APLAZADA',body:'Si un jugador pierde un Pokémon vinculado mientras el otro lo está utilizando en un combate, el Pokémon del segundo jugador se considera muerto una vez concluya ese combate, no durante él.'}
+ shiny:{label:'SITUACIÓN 04',heading:'Captura de un Pokémon shiny',a:'ENCUENTRO SHINY (EJEMPLO)',b:'SIN VÍNCULO ESPECIAL',status:'EXCEPCIÓN SHINY',body:'Un shiny puede capturarse y utilizarse aunque ya se haya realizado el encuentro de esa ruta. Los Pokémon shiny no están vinculados al Pokémon del compañero. La búsqueda deliberada solo se permite después de terminar el tramo antes de la fecha establecida, siempre en directo, con un límite de uno por tramo.'}
 };
 const soulVisuals={
  capture:{a:{},b:{}},
  death:{a:{gray:true},b:{gray:true}},
  fail:{a:{placeholder:'MISS',name:'Sin captura'},b:{gray:true}},
- shiny:{a:{shiny:true},b:{placeholder:'SIN VÍNCULO',name:'Sin vínculo'}},
- combat:{a:{gray:true},b:{}}
+ shiny:{a:{shiny:true},b:{placeholder:'SIN VÍNCULO',name:'Sin vínculo'}}
 };
 const rounds=[
  ['EQUIPO 1 O EQUIPO 2','Primera partida','Cada jugador elige entre su Equipo 1 o su Equipo 2. Ambos compañeros deben utilizar el mismo número de equipo y el Equipo 3 está prohibido en esta primera partida.'],
