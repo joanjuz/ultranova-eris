@@ -48,7 +48,21 @@ function populateHome(){const m=data.meta;
  const links=[['Discord',m.socials.discord],['X / Twitter',m.socials.twitter],['Instagram',m.socials.instagram]];$('#social-home').innerHTML=links.map(([title,url])=>`<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${title} ↗</a>`).join('');$('#social-footer').innerHTML=links.map(([title,url])=>`<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${title}</a>`).join('');
 }
 function setupTheme(){let t='ultraluna';try{t=localStorage.getItem('eris.theme')||'ultraluna'}catch{}setTheme(t)}
-function setTheme(theme){const t=theme==='ultraluna'?'ultraluna':'ultrasol';document.body.dataset.theme=t;$$('[data-set-theme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.setTheme===t)));$('#hero-pokemon').src=sprite(t==='ultraluna'?792:791);$('#hero-pokemon').alt=t==='ultraluna'?'Lunala, Pokémon representativo de UltraLuna':'Solgaleo, Pokémon representativo de UltraSol';$('#hero-edition').textContent=t==='ultraluna'?'EDICIÓN ULTRALUNA':'EDICIÓN ULTRASOL';try{localStorage.setItem('eris.theme',t)}catch{}}
+const heroForms={
+ ultrasol:{image:sprite(10155),alt:'Necrozma Melena Crepuscular, imagen de UltraSol',edition:'EDICIÓN ULTRASOL'},
+ ultraluna:{image:sprite(10156),alt:'Necrozma Alas del Alba, imagen de UltraLuna',edition:'EDICIÓN ULTRALUNA'}
+};
+function setTheme(theme){
+ const t=theme==='ultrasol'?'ultrasol':'ultraluna';
+ const form=heroForms[t];
+ document.body.dataset.theme=t;
+ $$('[data-set-theme]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.setTheme===t)));
+ const image=$('#hero-pokemon');
+ if(image.src!==form.image)image.src=form.image;
+ image.alt=form.alt;
+ $('#hero-edition').textContent=form.edition;
+ try{localStorage.setItem('eris.theme',t)}catch{}
+}
 function route(name,history=true){section=sections.includes(name)?name:'inicio';$$('.page').forEach(p=>p.classList.toggle('active',p.id===`page-${section}`));$$('[data-route]', $('.main-nav')).forEach(a=>{a.classList.toggle('active',a.dataset.route===section);if(a.dataset.route===section)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});if(history)window.history.pushState({},'',`${location.pathname}?seccion=${encodeURIComponent(section)}`);window.scrollTo({top:0,behavior:'instant'});document.title=(section==='inicio'?'Inicio':({soullink:'SoulLink',pokedex:'Pokédex',mapa:'Mapa y niveles',romhack:'Romhack'}[section]||section[0].toUpperCase()+section.slice(1)))+' | Ultranova Eris';}
 function initCategories(){filterButtons('#rules-filters',data.rules,'rule-category','Todas');filterButtons('#battle-filters',data.battles,'battle-category','Todas');filterButtons('#rand-filters',data.randomizer,'rand-category','Todas')}
 function filterButtons(selector,list,attr,active){$(selector).innerHTML=['Todas',...categories(list)].map(c=>`<button type="button" data-${attr}="${escapeHtml(c)}" class="${c===active?'active':''}">${escapeHtml(c)}</button>`).join('')}
