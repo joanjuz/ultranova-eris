@@ -261,3 +261,10 @@ a{color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}
   .map-scene-detailed .island-pill small{font-size:8px}
   .map-scene-detailed .map-bottom{font-size:8px}
 }
+.map-scene-detailed .alola-map {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 1;
+}
