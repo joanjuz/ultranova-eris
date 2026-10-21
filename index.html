@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#152844">
   <meta name="description" content="Torneo Ultranova de Eris. Reglamento SoulLink, level caps, combates dobles BO3, movimientos y evoluciones modificadas de Pokémon UltraSol y UltraLuna.">
   <title>Ultranova · Eris | Torneo Pokémon</title>
-  <link rel="icon" type="image/png" href="assets/logo-ultranova.png?v=1.1.4"><link rel="stylesheet" href="css/site.css?v=1.1.8">
-  <script src="js/site.js?v=1.1.7" type="module"></script>
+  <link rel="icon" type="image/png" href="assets/logo-ultranova.png?v=1.1.4"><link rel="stylesheet" href="css/site.css?v=1.2.0">
+  <script src="js/site.js?v=1.2.0" type="module"></script>
 </head>
 <body data-theme="ultraluna">
   <a class="skip-link" href="#content">Saltar al contenido</a>
@@ -38,14 +38,27 @@
         <div class="source-panel"><div><small>TRANSPARENCIA DEL CONTENIDO</small><h3>Documentación original</h3><p>La información se organiza para consultarla de forma más clara. Puedes contrastarla con los documentos facilitados por la organización.</p></div><div class="source-links"><a href="assets/documentos/normas-ultranova.pdf" target="_blank" rel="noopener">Normas y condiciones ↗</a><a href="assets/documentos/combates-ultranova.pdf" target="_blank" rel="noopener">Documento de combates ↗</a></div></div>
       </section>
       <section class="page" id="page-reglamento"><div class="page-title"><small>01 / NORMATIVA</small><h1>Reglamento</h1><p>Normas del desafío agrupadas por temas. Utiliza la búsqueda para localizar reglas, excepciones y situaciones concretas.</p></div><div class="searchbar"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg><input id="rules-search" type="search" placeholder="Buscar en todas las normas..." aria-label="Buscar reglas"></div><div class="filters" id="rules-filters"></div><div class="result-meta" id="rules-count"></div><div class="item-grid" id="rules-list"></div><div class="section-title"><div><small>PRÓXIMAS ACTUALIZACIONES</small><h2>Fechas anunciadas en Discord</h2></div></div><div class="item-grid" id="notes-list"></div></section>
-      <section class="page" id="page-mapa"><div class="page-title"><small>02 / PROGRESIÓN</small><h1>Mapa y niveles</h1><p>Consulta los límites de nivel y marca los hitos completados. Tu progreso se guarda únicamente en este navegador, no se envía a servidores.</p></div><div class="map-layout"><div class="map-scene map-scene-detailed">
- <span class="map-label">REGIÓN DE ALOLA</span>
- <img class="alola-map" src="assets/alola-islands-detailed.png" alt="Ilustración detallada de las cuatro islas de Alola" width="430" height="430" decoding="async">
- <button type="button" class="island i-melemele" data-region="Melemele" aria-label="Seleccionar isla Melemele"><span class="island-pill"><strong>MELEMELE</strong><small>01</small></span></button>
- <button type="button" class="island i-akala" data-region="Akala" aria-label="Seleccionar isla Akala"><span class="island-pill"><strong>AKALA</strong><small>02</small></span></button>
- <button type="button" class="island i-ula" data-region="Ula-Ula" aria-label="Seleccionar isla Ula-Ula"><span class="island-pill"><strong>ULA-ULA</strong><small>03</small></span></button>
- <button type="button" class="island i-poni" data-region="Poni y final" aria-label="Seleccionar isla Poni y final"><span class="island-pill"><strong>PONI / FINAL</strong><small>04</small></span></button>
- <span class="map-bottom">SELECCIONA UNA ISLA</span>
+      <section class="page" id="page-mapa"><div class="page-title"><small>02 / PROGRESIÓN</small><h1>Mapa y niveles</h1><p>Consulta los límites de nivel y marca los hitos completados. Tu progreso se guarda únicamente en este navegador, no se envía a servidores.</p></div><div class="map-layout"><div class="map-scene map-scene-islands">
+  <span class="map-label">REGIÓN DE ALOLA</span>
+  <div class="alola-island-grid" aria-label="Islas de Alola">
+    <button type="button" class="island island-tile selected" data-region="Melemele" aria-label="Seleccionar Melemele" aria-pressed="true">
+      <img class="island-art" src="assets/islas/melemele.png" alt="" loading="lazy" decoding="async">
+      <span class="island-caption">MELEMELE <small>01</small></span>
+    </button>
+    <button type="button" class="island island-tile" data-region="Akala" aria-label="Seleccionar Akala" aria-pressed="false">
+      <img class="island-art" src="assets/islas/akala.png" alt="" loading="lazy" decoding="async">
+      <span class="island-caption">AKALA <small>02</small></span>
+    </button>
+    <button type="button" class="island island-tile" data-region="Ula-Ula" aria-label="Seleccionar Ula-Ula" aria-pressed="false">
+      <img class="island-art" src="assets/islas/ula-ula.png" alt="" loading="lazy" decoding="async">
+      <span class="island-caption">ULA-ULA <small>03</small></span>
+    </button>
+    <button type="button" class="island island-tile" data-region="Poni y final" aria-label="Seleccionar Poni y final" aria-pressed="false">
+      <img class="island-art" src="assets/islas/poni.png" alt="" loading="lazy" decoding="async">
+      <span class="island-caption">PONI / FINAL <small>04</small></span>
+    </button>
+  </div>
+  <span class="map-bottom">SELECCIONA UNA ISLA</span>
 </div><div class="map-detail"><span class="eyebrow" id="region-index">REGIÓN 01</span><h2 id="region-name">Melemele</h2><p id="region-description"></p><div id="region-stages"></div></div></div><div class="progress-strip"><div><small>PROGRESO LOCAL</small><strong id="progress-value">0 / 18 hitos completados</strong></div><div class="progress-track"><span id="progress-fill"></span></div><button id="reset-progress" class="text-button">Reiniciar progreso</button></div><div class="two-columns" id="phase-cards"></div><div class="content-note">Los niveles indicados son referencias de las pruebas. El romhack aplica automáticamente el límite de nivel mediante Quality of Life, sin una restricción manual adicional.</div></section>
       <section class="page" id="page-soullink"><div class="page-title"><small>03 / MECÁNICA PRINCIPAL</small><h1>SoulLink</h1><p>Ejemplos interactivos para entender capturas vinculadas, muertes y excepciones. Este simulador explica el reglamento y no modifica partidas.</p></div><div class="filters" id="soul-filters"><button data-scenario="capture" class="active">Captura vinculada</button><button data-scenario="death">Pokémon debilitado</button><button data-scenario="fail">Captura fallida</button><button data-scenario="shiny">Excepción shiny</button></div><div class="soullink-scene"><div class="trainer-panel"><small>JUGADOR 1</small><div class="soul-artwork"><img id="soul-sprite-a" loading="lazy" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/258.png" alt="Mudkip"><span class="soul-placeholder" id="soul-placeholder-a" hidden></span></div><h3 id="soul-name-a">Mudkip</h3><span id="soul-state-a">CAPTURADO · RUTA 1</span></div><div class="link-center"><div class="link-graphic"><span></span></div><strong id="soul-status">VÍNCULO ACTIVO</strong><small>SOULLINK</small></div><div class="trainer-panel"><small>JUGADOR 2</small><div class="soul-artwork"><img id="soul-sprite-b" loading="lazy" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/373.png" alt="Salamence"><span class="soul-placeholder" id="soul-placeholder-b" hidden></span></div><h3 id="soul-name-b">Salamence</h3><span id="soul-state-b">CAPTURADO · RUTA 1</span></div></div><article class="soul-explanation"><small id="soul-case">SITUACIÓN 01</small><h2 id="soul-heading">Capturas vinculadas</h2><p id="soul-explanation"></p></article><div class="section-title"><div><small>NORMAS ASOCIADAS</small><h2>Consulta las excepciones</h2></div></div><div id="soul-related" class="item-grid"></div></section>
       <section class="page" id="page-movimientos"><div class="page-title"><small>04 / CAMBIOS DEL ROMHACK</small><h1>Movimientos modificados</h1><p>Catálogo de movimientos físicos, especiales y de estado modificados. </p></div><div class="searchbar"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg><input id="moves-search" type="search" placeholder="Buscar movimiento, tipo o efecto" aria-label="Buscar movimientos"></div><div class="filters" id="moves-filters"><button data-move-filter="Todos" class="active">Todos</button><button data-move-filter="Físico">Físicos</button><button data-move-filter="Especial">Especiales</button><button data-move-filter="Estado">Estado</button></div><div class="result-meta" id="moves-count"></div><div id="moves-list" class="item-grid"></div></section>

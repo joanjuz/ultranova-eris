@@ -141,130 +141,130 @@ a{color:inherit}button,input,select,textarea{font:inherit}button{cursor:pointer}
 }
 
 
-/* Mapa de Alola ilustrado V1.1.8 — preserva el sistema data-region y progreso. */
-.map-scene.map-scene-detailed{
-  aspect-ratio:1/1;
-  min-height:0;
-  background:#f7f7f7;
-  position:relative;
-  isolation:isolate;
-  border:1px solid var(--line);
-  border-radius:12px;
+
+/* Alola V1.2.0: cuatro islas PNG sin fondo; resplandor solo en la silueta */
+.map-scene.map-scene-islands {
+  min-height: 0;
+  aspect-ratio: auto;
+  padding: 18px 18px 12px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  position: relative;
+  overflow: hidden;
 }
-.map-scene-detailed .alola-map{
-  position:absolute;
-  inset:0;
-  display:block;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  pointer-events:none;
-  user-select:none;
+.map-scene-islands .map-label {
+  display: block;
+  position: static;
+  margin: 0 0 10px;
+  padding: 0;
+  background: none;
+  color: var(--ink);
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
 }
-.map-scene-detailed .map-label{
-  z-index:2;
-  top:12px;
-  left:13px;
-  padding:5px 8px;
-  border-radius:5px;
-  background:#f7f7f7e6;
-  color:#20384d;
-  font-size:10px;
+.alola-island-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 12px;
 }
-.map-scene-detailed .island{
-  position:absolute;
-  width:49%;
-  height:45%;
-  padding:7px;
-  border:0;
-  border-radius:10px;
-  background:transparent;
-  display:flex;
-  align-items:flex-end;
-  justify-content:center;
-  isolation:auto;
-  color:#fff;
-  text-shadow:none;
-  z-index:2;
-  transform:none;
-  transition:box-shadow .18s ease,background .18s ease;
+.map-scene-islands .island-tile {
+  position: relative;
+  inset: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  min-width: 0;
+  width: 100%;
+  height: auto;
+  min-height: 214px;
+  padding: 8px 7px 11px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  box-shadow: none;
+  color: var(--ink);
+  text-shadow: none;
+  isolation: auto;
+  cursor: pointer;
+  transform: none;
+  transition: none;
 }
-.map-scene-detailed .island:hover{
-  transform:none;
-  background:#215b8b12;
-  box-shadow:inset 0 0 0 1px #215b8b78;
+.map-scene-islands .island-tile:hover,
+.map-scene-islands .island-tile.selected {
+  transform: none;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
-.map-scene-detailed .island.selected{
-  transform:none;
-  background:#215b8b0e;
-  box-shadow:inset 0 0 0 2px var(--primary);
+.map-scene-islands .island-tile:focus-visible {
+  outline: 2px dashed var(--primary);
+  outline-offset: -2px;
 }
-.map-scene-detailed .island:focus-visible{
-  outline:3px solid var(--primary);
-  outline-offset:-4px;
+.map-scene-islands .island-art {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 173px;
+  object-fit: contain;
+  object-position: center;
+  user-select: none;
+  pointer-events: none;
+  filter: none;
+  transition: filter .2s ease;
 }
-.map-scene-detailed .island-pill{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
-  gap:7px;
-  max-width:96%;
-  padding:6px 9px;
-  color:#fff;
-  background:#142638e6;
-  border:1px solid #ffffff54;
-  border-radius:6px;
-  box-shadow:0 3px 10px #1122373d;
-  font-size:11px;
-  font-weight:850;
-  letter-spacing:.25px;
-  white-space:nowrap;
+.map-scene-islands .island-tile.selected .island-art {
+  filter:
+    drop-shadow(0 0 1px var(--primary))
+    drop-shadow(0 0 5px var(--primary))
+    drop-shadow(0 0 9px var(--primary));
 }
-.map-scene-detailed .island.selected .island-pill{
-  border-color:var(--hero-glow);
-  background:#223b59;
-  box-shadow:0 0 0 2px var(--hero-glow),0 3px 10px #1122373d;
+.map-scene-islands .island-caption {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 5px 8px;
+  color: var(--ink);
+  background: none;
+  box-shadow: none;
+  border: 0;
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 1.35;
+  letter-spacing: .5px;
+  white-space: nowrap;
 }
-.map-scene-detailed .island-pill strong{
-  font-size:11px;
-  color:#fff;
-  letter-spacing:.25px;
+.map-scene-islands .island-caption small {
+  color: var(--ink-soft);
+  font-size: 9px;
+  font-weight: 800;
 }
-.map-scene-detailed .island-pill small{
-  font-size:9px;
-  color:#d3e6f6;
+.map-scene-islands .map-bottom {
+  position: static;
+  display: block;
+  padding: 10px 0 0;
+  background: none;
+  color: var(--ink-soft);
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 1.4px;
 }
-.map-scene-detailed .i-melemele{top:2%;left:1%;bottom:auto;right:auto}
-.map-scene-detailed .i-akala{top:2%;right:1%;bottom:auto;left:auto}
-.map-scene-detailed .i-ula{bottom:7%;left:1%;top:auto;right:auto}
-.map-scene-detailed .i-poni{bottom:7%;right:1%;top:auto;left:auto}
-.map-scene-detailed .map-bottom{
-  z-index:3;
-  padding:6px;
-  color:#fff;
-  background:#142638e6;
-  font-size:9px;
-  letter-spacing:1.2px;
+.map-scene-islands + .map-detail { max-height: 550px; }
+@media (max-width: 850px) {
+  .map-scene-islands + .map-detail { max-height: none; }
 }
-.map-scene-detailed + .map-detail{max-height:550px}
-@media(max-width:850px){
-  .map-scene.map-scene-detailed{min-height:0}
-  .map-scene-detailed + .map-detail{max-height:none}
+@media (max-width: 600px) {
+  .map-scene.map-scene-islands { min-height: 0; padding: 12px 9px; }
+  .alola-island-grid { gap: 7px; }
+  .map-scene-islands .island-tile { min-height: 146px; padding: 5px 2px 8px; }
+  .map-scene-islands .island-art { height: 115px; }
+  .map-scene-islands .island-caption { gap: 4px; font-size: 9px; padding: 4px; letter-spacing: 0; }
+  .map-scene-islands .island-caption small { font-size: 8px; }
 }
-@media(max-width:600px){
-  .map-scene.map-scene-detailed{min-height:0}
-  .map-scene-detailed .map-label{top:8px;left:8px;font-size:9px;padding:4px 6px}
-  .map-scene-detailed .island{width:49%;height:45%;padding:3px}
-  .map-scene-detailed .island-pill{gap:5px;padding:5px 6px}
-  .map-scene-detailed .island-pill strong{font-size:9px}
-  .map-scene-detailed .island-pill small{font-size:8px}
-  .map-scene-detailed .map-bottom{font-size:8px}
-}
-.map-scene-detailed .alola-map {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    opacity: 1;
+@media (prefers-reduced-motion: reduce) {
+  .map-scene-islands .island-art { transition: none; }
 }
